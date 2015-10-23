@@ -45,4 +45,5 @@ alias zshc='v ~/.zshrc'
 alias zshs='source ~/.zshrc'
 
 # etc
-alias cc='clear'
+alias grow="/Users/zackyma/bin/grow"
+
