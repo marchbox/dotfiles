@@ -2,7 +2,10 @@
 
 Checkout:
 
+<<<<<<< HEAD
     cd ~
+=======
+>>>>>>> b55f039832507ec959dfeef8b1b050005d38370e
     git clone https://github.com/marchbox/dotfiles.git
     cd dotfiles
     git submodule init
