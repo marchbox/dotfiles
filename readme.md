@@ -29,8 +29,7 @@ Vim package management. <https://github.com/tpope/vim-pathogen>
 
 # zsh
 
-1. Install oh-my-zsh: <http://ohmyz.sh>
-2. Add .box-name file.
+- Install oh-my-zsh: <http://ohmyz.sh>
 
 
 # Resources
