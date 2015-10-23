@@ -15,6 +15,7 @@ Create symlinks:
     ln -s ~/dotfiles/vim ~/.vim
     ln -s ~/dotfiles/vimrc ~/.vimrc
 
+
 # Vim
 
 ## Pathogen
@@ -25,7 +26,14 @@ Vim package management. <https://github.com/tpope/vim-pathogen>
 
     brew install reattach-to-user-namespace
 
+
 # zsh
 
 1. Install oh-my-zsh: <http://ohmyz.sh>
 2. Add .box-name file.
+
+
+# Resources
+
+- [Vim & Tmux & System Clipboard](https://coderwall.com/p/j9wnfw/vim-tmux-system-clipboard)
+- [Synchronizing plugins with git submodules and pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
