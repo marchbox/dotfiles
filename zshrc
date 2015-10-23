@@ -51,7 +51,9 @@ zle -N zle-keymap-select
 export KEYTIMEOUT=1
 
 # vim
-alias v='vim'
+EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
+alias v='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 # brew
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh

@@ -18,18 +18,18 @@ Create symlinks:
 
 # Vim
 
-## Pathogen
-
-Vim package management. <https://github.com/tpope/vim-pathogen>
-
-## Use system clipboard in OS X
-
-    brew install reattach-to-user-namespace
+- Install Pathogen (Vim package management): <https://github.com/tpope/vim-pathogen>
 
 
 # zsh
 
 - Install oh-my-zsh: <http://ohmyz.sh>
+
+
+# Clipboard on OS X
+
+- Install MacVim: <https://github.com/macvim-dev/macvim>
+- Install reattach-to-user-namespace: ```brew install reattach-to-user-namespace```
 
 
 # Resources
