@@ -47,3 +47,5 @@ alias zshs='source ~/.zshrc'
 # etc
 alias grow="/Users/zackyma/bin/grow"
 
+# local override
+source ~/.zshlocalrc
