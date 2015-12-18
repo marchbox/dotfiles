@@ -162,6 +162,8 @@ vmap <C-k> [egv
 vmap <C-j> ]egv
 " ,o to open files in new tabs
 nnoremap <leader>o :tabe 
+" Shift + K for line splitting
+nnoremap K i<CR><Esc>
 
 
 " Plugins
