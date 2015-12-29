@@ -29,7 +29,7 @@ colorscheme jellybeans
 " Set relevant filetypes
 au BufRead,BufNewFile *.tpl set filetype=html
 au BufRead,BufNewFile *.gnode set filetype=html
-au BufRead,BufNewFile *.soy set filetype=html
+au BufRead,BufNewFile *.soy set filetype=soy
 au BufRead,BufNewFile *.gss set filetype=css
 au BufRead,BufNewFile *.md set filetype=markdown
 
