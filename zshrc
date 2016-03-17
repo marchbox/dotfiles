@@ -37,9 +37,6 @@ EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
 alias v='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
-# brew
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
 # zsh
 alias zshc='v ~/.zshrc'
 alias zshs='source ~/.zshrc'
