@@ -109,6 +109,8 @@ set ignorecase
 set smartcase
 " Auto complete for command menu
 set wildmenu
+" Disable code folding
+set nofoldenable
 
 
 
