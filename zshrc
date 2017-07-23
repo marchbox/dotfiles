@@ -33,9 +33,7 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 
 # vim
-EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
-alias v='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias v='vim'
 
 # brew
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
