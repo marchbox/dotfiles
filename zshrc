@@ -35,9 +35,6 @@ bindkey -v
 # vim
 alias v='vim'
 
-# brew
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-
 # zsh
 alias zshc='v ~/.zshrc'
 alias zshs='source ~/.zshrc'

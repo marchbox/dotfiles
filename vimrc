@@ -29,7 +29,7 @@ colorscheme jellybeans
 " Set relevant filetypes
 au BufRead,BufNewFile *.tpl set filetype=html
 au BufRead,BufNewFile *.gnode set filetype=html
-au BufRead,BufNewFile *.soy set filetype=html
+au BufRead,BufNewFile *.soy set filetype=soy
 au BufRead,BufNewFile *.gss set filetype=css
 au BufRead,BufNewFile *.md set filetype=markdown
 
@@ -109,6 +109,8 @@ set ignorecase
 set smartcase
 " Auto complete for command menu
 set wildmenu
+" Disable code folding
+set nofoldenable
 
 
 
@@ -162,6 +164,8 @@ vmap <C-k> [egv
 vmap <C-j> ]egv
 " ,o to open files in new tabs
 nnoremap <leader>o :tabe 
+" Shift + K for line splitting
+nnoremap K i<CR><Esc>
 
 
 " Plugins
@@ -176,3 +180,11 @@ nnoremap <leader>u :GundoToggle<CR>
 let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_math=1
 let g:vim_markdown_frontmatter=1
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
