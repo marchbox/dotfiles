@@ -26,13 +26,13 @@ colorscheme jellybeans
 
 
 
-" Set relevant filetypes
+" Set filetype specific settings
 au BufRead,BufNewFile *.tpl set filetype=html
 au BufRead,BufNewFile *.gnode set filetype=html
-au BufRead,BufNewFile *.soy set filetype=soy
+au BufRead,BufNewFile *.soy set filetype=soy colorcolumn=101
 au BufRead,BufNewFile *.gss set filetype=css
 au BufRead,BufNewFile *.md set filetype=markdown
-
+au BufRead,BufNewFile *.java set colorcolumn=101
 
 
 " Tabs, indentation and lines
