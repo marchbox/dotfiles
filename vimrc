@@ -46,8 +46,7 @@ set softtabstop=2
 " Round indent to nearest multiple of 4
 set shiftround
 " No line-wrapping
-set wrap linebreak nolist
-set showbreak=…
+set nowrap
 
 
 
