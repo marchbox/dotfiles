@@ -40,3 +40,6 @@
 [submodule "vim/bundle/vim-vinegar"]
 	path = vim/bundle/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar.git
+[submodule "vim/bundle/vim-jinja2-syntax"]
+	path = vim/bundle/vim-jinja2-syntax
+	url = https://github.com/Glench/Vim-Jinja2-Syntax.git
