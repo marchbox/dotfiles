@@ -63,7 +63,7 @@ set whichwrap=h,l,b,<,>,~,[,]
 " Underscores denote words
 set iskeyword-=_
 " Use system clipboard as the default buffer
-set clipboard^=unnamed
+set clipboard=unnamed
 
 
 " Visual decorations
