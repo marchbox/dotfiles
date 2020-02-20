@@ -7,9 +7,6 @@
 [submodule "vim/bundle/unimpaired"]
 	path = vim/bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "vim/bundle/replacewithregister"]
-	path = vim/bundle/replacewithregister
-	url = https://github.com/vim-scripts/ReplaceWithRegister.git
 [submodule "vim/bundle/commentary"]
 	path = vim/bundle/commentary
 	url = https://github.com/tpope/vim-commentary.git
@@ -46,3 +43,9 @@
 [submodule "vim/bundle/vim-javascript"]
 	path = vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/bundle/goyo"]
+	path = vim/bundle/goyo
+	url = https://github.com/junegunn/goyo.vim.git
+[submodule "vim/bundle/limelight"]
+	path = vim/bundle/limelight
+	url = https://github.com/junegunn/limelight.vim.git
