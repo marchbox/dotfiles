@@ -34,6 +34,7 @@ au BufRead,BufNewFile *.gss set filetype=css
 au BufRead,BufNewFile *.md set filetype=markdown
 au BufRead,BufNewFile *.java set colorcolumn=101
 au BufRead,BufNewFile *.njk set filetype=jinja
+au BufRead,BufNewFile *.tsx set filetype=typescript
 
 
 " Tabs, indentation and lines
