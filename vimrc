@@ -243,3 +243,7 @@ let g:limelight_paragraph_span = 1
 " Highlighting priority (default: 10)
 "   Set it to -1 not to overrule hlsearch
 let g:limelight_priority = -1
+
+" For typescript highlighting with vim-polyglot
+" See: https://github.com/HerringtonDarkholme/yats.vim#config
+set re=1
