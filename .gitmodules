@@ -61,3 +61,6 @@
 [submodule "vim/bundle/targets-vim"]
 	path = vim/bundle/targets-vim
 	url = https://github.com/wellle/targets.vim.git
+[submodule "vim/bundle/vim-signify"]
+	path = vim/bundle/vim-signify
+	url = git@github.com:mhinz/vim-signify.git

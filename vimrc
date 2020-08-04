@@ -247,3 +247,7 @@ let g:limelight_priority = -1
 " For typescript highlighting with vim-polyglot
 " See: https://github.com/HerringtonDarkholme/yats.vim#config
 set re=1
+
+" vim-signify
+" default updatetime 4000ms is not good for async update
+set updatetime=100
