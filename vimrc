@@ -251,3 +251,30 @@ set re=1
 " vim-signify
 " default updatetime 4000ms is not good for async update
 set updatetime=100
+
+" lightline + vim-line-no-indicator
+let g:lightline = {
+    \ 'component': {
+    \   'indicator': '%{LineNoIndicator()}'
+    \ },
+    \ 'active': {
+    \   'left': [
+    \     [ 'mode', 'paste' ],
+    \     [ 'readonly', 'relativepath', 'modified' ]
+    \   ],
+    \   'right': [
+    \     [ 'lineinfo' ],
+    \     [ 'indicator' ],
+    \     [ 'fileformat', 'fileencoding', 'filetype' ]
+    \   ]
+    \ },
+    \ 'inactive': {
+    \   'left': [
+    \     [ 'filename' ]
+    \   ],
+    \   'right': [
+    \     [ 'indicator' ],
+    \     [ 'lineinfo' ]
+    \   ]
+    \ }
+    \ }
