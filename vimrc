@@ -9,6 +9,8 @@ call pathogen#helptags()
 set nocompatible
 set encoding=utf-8
 
+" No recovery files
+set noswapfile
 
 
 " Syntax highlighting
