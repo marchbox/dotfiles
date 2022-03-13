@@ -30,6 +30,7 @@ colorscheme jellybeans
 
 " Set filetype specific settings
 au BufRead,BufNewFile *.tpl set filetype=html
+au BufRead,BufNewFile *.njk set filetype=html
 au BufRead,BufNewFile *.gnode set filetype=html
 au BufRead,BufNewFile *.soy set filetype=soy colorcolumn=101
 au BufRead,BufNewFile *.gss set filetype=css
@@ -247,7 +248,7 @@ let g:limelight_priority = -1
 
 " For typescript highlighting with vim-polyglot
 " See: https://github.com/HerringtonDarkholme/yats.vim#config
-set re=1
+set re=0
 
 " vim-signify
 " default updatetime 4000ms is not good for async update
