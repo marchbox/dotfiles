@@ -103,6 +103,3 @@ bind S set synchronize-panes
 # Esc. fixes insert mode exit lag in vim
 set -sg escape-time 0
 
-# Fig Tmux Integration: Enabled
-source-file ~/.fig/tmux
-# End of Fig Tmux Integration
