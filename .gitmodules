@@ -73,3 +73,6 @@
 [submodule "vim/bundle/traces-vim"]
 	path = vim/bundle/traces-vim
 	url = https://github.com/markonm/traces.vim
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree.git
