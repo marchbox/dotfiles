@@ -36,8 +36,9 @@ source $ZSH/oh-my-zsh.sh
 # vi-mode
 bindkey -v
 
-# vim
-alias v='vim'
+# helix
+alias v='hx'
+alias h='hx'
 
 # zsh
 alias zshc='v ~/.zshrc'
