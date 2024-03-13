@@ -40,6 +40,9 @@ bindkey -v
 alias v='hx'
 alias h='hx'
 
+# zellij
+alias zz='zellij'
+
 # zsh
 alias zshc='v ~/.zshrc'
 alias zshs='source ~/.zshrc'
