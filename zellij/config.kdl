@@ -23,9 +23,32 @@ themes {
 }
 
 keybinds {
-    unbind "Ctrl q"
-
     shared_except "locked" {
         bind "Ctrl e" {Quit;}
+    }
+
+    pane {
+        unbind "Ctrl p"
+        bind "Ctrl q" {SwitchToMode "Normal";}
+    }
+
+    session {
+        unbind "Ctrl s"
+        bind "Ctrl f" {SwitchToMode "Scroll";}
+    }
+
+    shared_among "scroll" "search" {
+        unbind "Ctrl s"
+        bind "Ctrl f" {SwitchToMode "Normal";}
+    }
+
+    shared_except "pane" "locked" {
+        unbind "Ctrl p"
+        bind "Ctrl q" {SwitchToMode "Pane";}
+    }
+
+    shared_except "scroll" "locked" {
+        unbind "Ctrl s"
+        bind "Ctrl f" {SwitchToMode "Scroll";}
     }
 }
