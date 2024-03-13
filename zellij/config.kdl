@@ -21,3 +21,11 @@ themes {
         orange "#ffc97d"
     }
 }
+
+keybinds {
+    unbind "Ctrl q"
+
+    shared_except "locked" {
+        bind "Ctrl e" {Quit;}
+    }
+}
