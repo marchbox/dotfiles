@@ -1,3 +1,5 @@
+fish_vi_key_bindings
+
 # Commands
 abbr --add l ls -l
 abbr --add md mkdir -p
