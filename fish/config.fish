@@ -21,6 +21,7 @@ abbr --add gd git diff
 abbr --add gb git branch
 abbr --add gco git checkout
 abbr --add gp git push
+abbr --add gl git pull
 
 # Syntax highlighting variables
 # https://fishshell.com/docs/current/interactive.html#syntax-highlighting-variables
@@ -64,3 +65,5 @@ set fish_pager_color_selected_description black
 set fish_pager_color_secondary_prefix white --bold
 set fish_pager_color_secondary_completion black
 set fish_pager_color_secondary_description white
+
+set PATH $PATH /opt/homebrew/bin
