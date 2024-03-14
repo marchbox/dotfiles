@@ -3,9 +3,11 @@ abbr --add l ls -l
 abbr --add md mkdir -p
 abbr --add rd rm -rf
 
-# Helix
+# Tools
 abbr --add v hx
 abbr --add h hx
+abbr --add zz zellij
+abbr --add za zellij a
 
 # Git
 abbr --add g git
