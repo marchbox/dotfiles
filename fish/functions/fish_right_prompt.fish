@@ -5,8 +5,8 @@ function fish_right_prompt -d "Write out the right prompt"
 
   # Print a fork symbol when in a subshell
   if test $SHLVL -gt $max_shlvl
-    set_color yellow
-    echo -n "⑂ "
+    # set_color yellow
+    # echo -n "⑂ "
     set_color normal
   end
 
