@@ -34,6 +34,8 @@ keybinds {
         bind "l" "Right" {MoveFocus "Right"; SwitchToMode "Normal";}
         bind "j" "Down" {MoveFocus "Down"; SwitchToMode "Normal";}
         bind "k" "Up" {MoveFocus "Up"; SwitchToMode "Normal";}
+        bind "s" {NewPane "Down"; SwitchToMode "Normal";}
+        bind "v" {NewPane "Right"; SwitchToMode "Normal";}
     }
 
     session {
