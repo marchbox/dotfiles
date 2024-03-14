@@ -9,3 +9,7 @@
     ```
 4. Install Homebrew formulas: `./setup-brew.sh`
 5. Set up symlinks: `./setup-symlinks.sh`
+
+---
+
+Current version is heavily inspired by <https://github.com/pawelgrzybek/dotfiles/>
