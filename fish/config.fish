@@ -1,4 +1,12 @@
+# Options
 fish_vi_key_bindings
+
+# Paths
+fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/local/git/bin ~/bin
+
+# nvm
+set NVM_DIR ~/.nvm
+nvm use node
 
 # Commands
 abbr --add l ls -l
@@ -65,5 +73,3 @@ set fish_pager_color_selected_description black
 set fish_pager_color_secondary_prefix white --bold
 set fish_pager_color_secondary_completion black
 set fish_pager_color_secondary_description white
-
-set PATH $PATH /opt/homebrew/bin
