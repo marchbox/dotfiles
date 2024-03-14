@@ -1,6 +1,13 @@
+# Commands
+abbr --add l ls -l
+abbr --add md mkdir -p
+abbr --add rd rm -rf
+
+# Helix
 abbr --add v hx
 abbr --add h hx
 
+# Git
 abbr --add g git
 abbr --add gst git status
 abbr --add gc git commit

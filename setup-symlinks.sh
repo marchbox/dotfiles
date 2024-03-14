@@ -2,7 +2,6 @@
 [ -d ~/.config ] || mkdir ~/.config
 
 ln -s ~/dotfiles/zshrc ~/.zshrc
-ln -s ~/dotfiles/tmuxconf ~/.tmux.conf
 ln -s ~/dotfiles/fish ~/.config/
 ln -s ~/dotfiles/helix ~/.config/
 ln -s ~/dotfiles/zellij ~/.config/
