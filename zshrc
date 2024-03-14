@@ -42,6 +42,7 @@ alias h='hx'
 
 # zellij
 alias zz='zellij'
+alias za='zellij a'
 
 # zsh
 alias zshc='v ~/.zshrc'
