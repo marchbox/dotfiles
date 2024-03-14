@@ -5,6 +5,7 @@ scrollback_editor "/opt/homebrew/bin/hx"
 ui {
     pane_frames {
         hide_session_name true
+        rounded_corners true
     }
 }
 
