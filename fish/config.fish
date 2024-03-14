@@ -29,6 +29,7 @@ abbr --add gd git diff
 abbr --add gb git branch
 abbr --add gco git checkout
 abbr --add gp git push
+abbr --add grhh git reset --hard
 abbr --add gl git pull
 
 # Syntax highlighting variables
