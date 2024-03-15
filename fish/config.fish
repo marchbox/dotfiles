@@ -1,8 +1,5 @@
-# Options
-fish_vi_key_bindings
-
 # Paths
-fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/local/git/bin ~/bin
+fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/loca/git/bin ~/bin
 
 # nvm
 set NVM_DIR ~/.nvm
@@ -31,6 +28,10 @@ abbr --add gco git checkout
 abbr --add gp git push
 abbr --add grhh git reset --hard
 abbr --add gl git pull
+
+# Key bindings
+fish_vi_key_bindings
+bind -M insert \cd accept-autosuggestion
 
 # Syntax highlighting variables
 # https://fishshell.com/docs/current/interactive.html#syntax-highlighting-variables
