@@ -1,0 +1,3 @@
+[[language]]
+name = "nunjucks"
+file-types = ["nunjucks", "tpl"]
