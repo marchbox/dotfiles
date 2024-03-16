@@ -7,7 +7,7 @@
     cd ~
     git clone https://github.com/marchbox/dotfiles.git
     ```
-4. Install Homebrew formulas: `./setup-install.sh`
+4. Install tools: `./setup-install.sh`
 5. Set up symlinks: `./setup-symlinks.sh`
 
 ---
