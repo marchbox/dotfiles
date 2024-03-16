@@ -1,0 +1,57 @@
+shell = "/opt/homebrew/bin/fish"
+
+# Window
+[window]
+padding = { x = 4, y = 4 }
+startup_mode = "Maximized"
+decorations_theme_variant = "Dark"
+option_as_alt = "Both"
+title = "Have a magical day!"
+dynamic_title = false
+
+# Font
+[font]
+normal = { family = "MonoLisa", style = "Regular" }
+bold = { family = "MonoLisa", style = "Bold" }
+italic = { family = "MonoLisa", style = "Italic" }
+bold_italic = { family = "MonoLisa", style = "Bold Italic" }
+size = 14
+offset = { x = 0, y = 2 }
+
+# Colors
+[colors]
+line_indicator = { foreground = "#ebebf5", background = "#1e1e28" }
+footer_bar = { foreground = "#ebebf5", background = "#44445a" }
+selection = { foreground = "#1e1e28", background = "#b8ccff" }
+
+[colors.primary]
+foreground = "#ebebf5"
+background = "#1e1e28"
+
+[colors.search]
+matches = { foreground = "#1e1e28", background = "#e5e1f5" }
+focused_match = { foreground = "#1e1e28", background = "#ffc97d" }
+
+[colors.hints]
+start = { foreground = "#ff0000", background = "#ff0066" }
+end = { foreground = "#ff0000", background = "#ff0066" }
+
+[colors.normal]
+black = "#44445a"
+red = "#FF758C"
+green = "#a8f5ba"
+yellow = "#ffc97d"
+blue = "#9bcaff"
+magenta = "#ff9be3"
+cyan = "#69fff6"
+white = "#e5e1f5"
+
+[colors.bright]
+black = "#44445a"
+red = "#FF758C"
+green = "#a8f5ba"
+yellow = "#ffc97d"
+blue = "#9bcaff"
+magenta = "#ff9be3"
+cyan = "#69fff6"
+white = "#e5e1f5"
