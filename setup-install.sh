@@ -8,6 +8,11 @@ brew install zellij
 brew install yarn
 brew install marksman
 
+brew install tlrc
+brew install rm-improved
+brew install tre-command
+brew install httpie
+
 brew cleanup
 
 # nvm and node

@@ -1,14 +1,18 @@
 # Paths
 fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/loca/git/bin ~/bin
 
+# env
+set EDITOR hx
+
 # nvm
 set NVM_DIR ~/.nvm
 nvm use node
 
 # Commands
-abbr --add l ls -lh
+abbr --add l tre
+abbr --add ll ls -lh
 abbr --add md mkdir -p
-abbr --add rd rm -rf
+abbr --add r rip
 
 # Tools
 abbr --add v hx
