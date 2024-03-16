@@ -32,20 +32,17 @@ keybinds {
         bind "Ctrl e" {Quit;}
     }
 
-    pane {
-        unbind "Ctrl p"
-        bind "Ctrl q" {SwitchToMode "Normal";}
-        bind "h" "Left" {MoveFocus "Left"; SwitchToMode "Normal";}
-        bind "l" "Right" {MoveFocus "Right"; SwitchToMode "Normal";}
-        bind "j" "Down" {MoveFocus "Down"; SwitchToMode "Normal";}
-        bind "k" "Up" {MoveFocus "Up"; SwitchToMode "Normal";}
-        bind "s" {NewPane "Down"; SwitchToMode "Normal";}
-        bind "v" {NewPane "Right"; SwitchToMode "Normal";}
-    }
-
     session {
         unbind "Ctrl s"
         bind "Ctrl f" {SwitchToMode "Scroll";}
+    }
+
+    tmux {
+        unbind "\""
+        unbind "%"
+        bind "Ctrl q" { Write 2; SwitchToMode "Normal"; }
+        bind "s" { NewPane "Down"; SwitchToMode "Normal"; }
+        bind "v" { NewPane "Right"; SwitchToMode "Normal"; }
     }
 
     shared_among "scroll" "search" {
@@ -53,13 +50,12 @@ keybinds {
         bind "Ctrl f" {SwitchToMode "Normal";}
     }
 
-    shared_except "pane" "locked" {
-        unbind "Ctrl p"
-        bind "Ctrl q" {SwitchToMode "Pane";}
-    }
-
     shared_except "scroll" "locked" {
         unbind "Ctrl s"
         bind "Ctrl f" {SwitchToMode "Scroll";}
+    }
+
+    shared_except "tmux" "locked" {
+        bind "Ctrl q" { SwitchToMode "Tmux"; }
     }
 }
