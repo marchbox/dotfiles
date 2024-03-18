@@ -9,6 +9,8 @@
     ```
 4. Install tools: `./setup-install.sh`
 5. Set up symlinks: `./setup-symlinks.sh`
+6. Create `~/local-gitconfig`, and define `[user]` and other local config in
+   it.
 
 ---
 

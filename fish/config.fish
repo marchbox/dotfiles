@@ -10,7 +10,7 @@ nvm use node
 
 # Commands
 abbr --add l tre
-abbr --add ll ls -lh
+abbr --add ll ls -lha
 abbr --add md mkdir -p
 abbr --add r rip
 

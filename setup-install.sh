@@ -13,6 +13,8 @@ brew install rm-improved
 brew install tre-command
 brew install httpie
 
+brew install git-delta
+
 brew cleanup
 
 # nvm and node
