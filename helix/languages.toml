@@ -1,3 +1,7 @@
 [[language]]
 name = "nunjucks"
-file-types = ["njk", "nunjucks", "tpl"]
+scope = "text.html.nunjucks"
+injection-regex = "nunjucks"
+file-types = ["njk", "tpl"]
+indent = { tab-width = 2, unit = "  " }
+grammar = "jinja2"
