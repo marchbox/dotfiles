@@ -8,6 +8,7 @@ bufferline = "multiple"
 color-modes = true
 mouse = false
 auto-pairs = false
+auto-format = false
 
 [editor.lsp]
 display-messages = true
