@@ -27,6 +27,7 @@ abbr --add gc git commit
 abbr --add gcmsg git commit -m
 abbr --add ga git add
 abbr --add gd git diff
+abbr --add gds git diff --staged
 abbr --add gb git branch
 abbr --add gco git checkout
 abbr --add gp git push
