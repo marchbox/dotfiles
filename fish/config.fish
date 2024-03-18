@@ -9,7 +9,7 @@ set NVM_DIR ~/.nvm
 nvm use node
 
 # Commands
-abbr --add l tre
+abbr --add l tre -l 2
 abbr --add ll ls -lha
 abbr --add md mkdir -p
 abbr --add r rip
