@@ -42,4 +42,4 @@
 	plus-emph-style = black green
 
 [include]
-	path = ~/gitconfig-local
+	path = ~/local-gitconfig
