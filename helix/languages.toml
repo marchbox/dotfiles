@@ -5,3 +5,6 @@ injection-regex = "nunjucks"
 file-types = ["njk", "tpl"]
 indent = { tab-width = 2, unit = "  " }
 grammar = "jinja2"
+
+[language-server.typescript-language-server.config]
+disableAutomaticTypingAcquisition = true
