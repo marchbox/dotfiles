@@ -30,6 +30,8 @@ themes {
 keybinds {
     shared_except "locked" {
         unbind "Ctrl q"
+        unbind "Alt ["
+        unbind "Alt ]"
     }
 
     session {
