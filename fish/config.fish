@@ -33,6 +33,7 @@ abbr --add gco git checkout
 abbr --add gp git push
 abbr --add grhh git reset --hard
 abbr --add gl git pull
+abbr --add gcl git clean -df
 
 # Key bindings
 fish_vi_key_bindings
