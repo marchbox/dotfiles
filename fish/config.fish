@@ -1,5 +1,5 @@
 # Paths
-fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/loca/git/bin ~/bin
+fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/local/git/bin ~/bin ~/google-cloud-sdk/bin
 
 # env
 set EDITOR hx
