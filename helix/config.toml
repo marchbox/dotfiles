@@ -24,6 +24,10 @@ render = true
 [editor.soft-wrap]
 enable = true
 
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
 [keys.normal]
 ";" = "command_mode"
 C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
