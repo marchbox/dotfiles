@@ -5,15 +5,10 @@ shell = "/opt/homebrew/bin/fish"
 [window]
 padding = { x = 4, y = 4 }
 startup_mode = "Maximized"
-decorations = "Buttonless"
 decorations_theme_variant = "Dark"
 # option_as_alt = "Both" Disabled for typing smart quotes
 title = "Have a magical day!"
 dynamic_title = false
-
-# Mouse
-[mouse]
-hide_when_typing = true
 
 # Font
 [font]
