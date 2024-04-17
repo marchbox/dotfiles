@@ -5,5 +5,6 @@ ln -s ~/dotfiles/alacritty ~/.config/
 ln -s ~/dotfiles/fish ~/.config/
 ln -s ~/dotfiles/helix ~/.config/
 ln -s ~/dotfiles/zellij ~/.config/
+ln -s ~/dotfiles/navi ~/.config/
 
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
