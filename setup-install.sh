@@ -12,7 +12,9 @@ brew install tlrc
 brew install rm-improved
 brew install tre-command
 brew install httpie
+brew install navi
 
+brew install gitu
 brew install git-delta
 
 brew cleanup
