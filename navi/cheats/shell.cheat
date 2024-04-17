@@ -1,0 +1,26 @@
+% shell
+
+# Base 64 encode a file and output the result
+base64 -i <inputfile>
+
+# Base 64 encode a file and output to a file
+base64 -i <inputfile> > <outputfile>
+
+# Base 64 encode a string
+echo <input> | base64
+
+# Base 64 encode a string and output to a file
+echo <input> | base64 > <outputfile>
+
+# Base 64 decode a file and output the result
+base64 -i <inputfile> --decode
+
+# Base 64 decode a file and output to a file
+base64 -i <inputfile> --decode > <outputfile>
+
+# Base 64 decode a string
+echo <input> | base64 --decode
+
+# Base 64 decode a string and output to a file
+echo <input> | base64 --decode > <outputfile>
+
