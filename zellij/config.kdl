@@ -32,6 +32,12 @@ keybinds {
         unbind "Ctrl q"
         unbind "Alt ["
         unbind "Alt ]"
+        bind "Ctrl w" {
+            LaunchPlugin "filepicker" {
+                floating true
+                close_on_selection true
+            };
+        }
     }
 
     session {
