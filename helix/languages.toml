@@ -8,3 +8,4 @@ grammar = "jinja2"
 
 [language-server.typescript-language-server.config]
 disableAutomaticTypingAcquisition = true
+insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces = true
