@@ -14,7 +14,7 @@ brew install tre-command
 brew install httpie
 brew install navi
 
-brew install gitu
+brew install lazygit
 brew install git-delta
 
 brew cleanup

@@ -19,6 +19,7 @@ abbr --add v hx
 abbr --add h hx
 abbr --add zz zellij
 abbr --add za zellij a
+abbr --add lg lazygit
 
 # Git
 abbr --add g git
