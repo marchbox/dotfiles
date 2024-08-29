@@ -7,6 +7,7 @@ brew install helix
 brew install zellij
 brew install yarn
 brew install marksman
+brew install starship
 
 brew install tlrc
 brew install rm-improved
@@ -24,5 +25,6 @@ brew cleanup
 nvm install node
 
 # Helix lsp servers
+brew install biome
 npm i -g vscode-langservers-extracted
 npm i -g typescript typescript-language-server
