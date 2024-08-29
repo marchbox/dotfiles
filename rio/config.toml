@@ -1,0 +1,51 @@
+# cursor = '|'
+# blinking-cursor = false
+option_as_alt = "right"
+padding-x = 8
+padding-y = [8, 8]
+
+[window]
+mode = "Maximized"
+
+[editor]
+program = "hx"
+args = []
+
+[shell]
+program = "/opt/homebrew/bin/fish"
+args = ["--login"]
+
+[fonts]
+size = 14
+[fonts.regular]
+family = "MonoLisa"
+style = "normal"
+weight = 400
+[fonts.bold]
+family = "MonoLisa"
+style = "normal"
+weight = 700
+[fonts.italic]
+family = "MonoLisa"
+style = "italic"
+weight = 400
+[fonts.bold-italic]
+family = "MonoLisa"
+style = "italic"
+weight = 700
+
+[colors]
+foreground = "#ebebf5"
+background = "#1e1e28"
+selection-foreground = "#1e1e28"
+selection-background = "#b8ccff"
+cursor = "#e5e1f5"
+# regular
+black = "#44445a"
+red = "#FF758C"
+green = "#a8f5ba"
+yellow = "#ffc97d"
+blue = "#9bcaff"
+magenta = "#ff9be3"
+cyan = "#69fff6"
+white = "#e5e1f5"
