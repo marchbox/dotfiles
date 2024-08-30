@@ -82,3 +82,6 @@ set fish_pager_color_selected_description black
 set fish_pager_color_secondary_prefix white --bold
 set fish_pager_color_secondary_completion black
 set fish_pager_color_secondary_description white
+
+# Starship prompt
+starship init fish | source
