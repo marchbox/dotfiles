@@ -13,6 +13,7 @@ brew install rm-improved
 brew install tre-command
 brew install httpie
 brew install navi
+brew install bat
 
 brew install lazygit
 brew install git-delta
