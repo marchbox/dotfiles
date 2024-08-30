@@ -24,3 +24,7 @@ echo <input> | base64 --decode
 # Base 64 decode a string and output to a file
 echo <input> | base64 --decode > <outputfile>
 
+# Rename/move files in batch
+for f in <pathpattern>; \
+  mv $f (echo $f | sed s/<find>/<replace>/); \
+end
