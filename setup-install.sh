@@ -1,7 +1,7 @@
 # Homebrew
 brew upgrade
 
-brew install rio
+brew install --cask rio
 brew install fish
 brew install helix
 brew install zellij
