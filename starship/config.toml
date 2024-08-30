@@ -1,5 +1,6 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 add_newline = true
+command_timeout = 1000
 
 [character]
 success_symbol = '[→](green)'
@@ -8,3 +9,15 @@ vimcmd_symbol = '[←](green)'
 vimcmd_replace_one_symbol = '[←](purple)'
 vimcmd_replace_symbol = '[←](purple)'
 vimcmd_visual_symbol = '[←](yellow)'
+
+[git_branch]
+symbol = '🌵'
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[openstack]
+disabled = true
