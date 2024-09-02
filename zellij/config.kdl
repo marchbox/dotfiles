@@ -1,5 +1,7 @@
 default_shell "fish"
 
+simplified_ui true
+
 scrollback_editor "/opt/homebrew/bin/hx"
 
 theme "default"
