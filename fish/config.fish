@@ -20,6 +20,7 @@ abbr --add h hx
 abbr --add zz zellij
 abbr --add za zellij a
 abbr --add lg lazygit
+abbr --add nr npm run
 
 # Git
 abbr --add g git
