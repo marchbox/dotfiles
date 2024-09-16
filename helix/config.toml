@@ -36,6 +36,7 @@ C-s = ":w"
 C-p = "signature_help"
 C-v = "copy_selection_on_next_line"
 g = {t = "goto_next_buffer", T = "goto_previous_buffer"}
+C-m = "save_selection"
 
 [keys.insert]
 j = {j = "normal_mode"}
