@@ -40,6 +40,3 @@
 	plus-style = syntax "#344135"
 	line-numbers-plus-style = green
 	plus-emph-style = black green
-
-[include]
-	path = ~/local-gitconfig
