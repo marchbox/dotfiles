@@ -29,3 +29,6 @@ nvm install node
 brew install biome
 npm i -g vscode-langservers-extracted
 npm i -g typescript typescript-language-server
+
+# more tools from npm
+npm i -g @bramus/caniuse-cli
