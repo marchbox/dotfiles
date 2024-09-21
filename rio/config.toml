@@ -17,6 +17,7 @@ args = ["--login"]
 
 [fonts]
 size = 14
+extras = [{ family = "JuliaMono" }]
 [fonts.regular]
 family = "MonoLisa"
 style = "normal"
@@ -33,6 +34,8 @@ weight = 400
 family = "MonoLisa"
 style = "italic"
 weight = 700
+[fonts.emoji]
+family = "Apple Color Emoji"
 
 [colors]
 foreground = "#ebebf5"

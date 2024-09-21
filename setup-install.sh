@@ -32,3 +32,6 @@ npm i -g typescript typescript-language-server
 
 # more tools from npm
 npm i -g @bramus/caniuse-cli
+
+# fonts
+brew install --cask font-juliamono
