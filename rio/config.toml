@@ -45,7 +45,7 @@ selection-background = "#b8ccff"
 cursor = "#e5e1f5"
 # regular
 black = "#44445a"
-red = "#FF758C"
+red = "#ff758C"
 green = "#a8f5ba"
 yellow = "#ffc97d"
 blue = "#9bcaff"
