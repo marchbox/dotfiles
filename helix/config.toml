@@ -12,7 +12,7 @@ auto-format = false
 
 [editor.cursor-shape]
 normal = "bar"
-insert = "underline"
+insert = "bar"
 
 [editor.lsp]
 display-messages = true
