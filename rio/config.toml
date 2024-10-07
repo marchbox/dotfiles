@@ -20,19 +20,19 @@ size = 14
 extras = [{ family = "JuliaMono" }]
 [fonts.regular]
 family = "MonoLisa"
-style = "normal"
+style = "Normal"
 weight = 400
 [fonts.bold]
 family = "MonoLisa"
-style = "normal"
+style = "Normal"
 weight = 700
 [fonts.italic]
 family = "MonoLisa"
-style = "italic"
+style = "Italic"
 weight = 400
 [fonts.bold-italic]
 family = "MonoLisa"
-style = "italic"
+style = "Italic"
 weight = 700
 [fonts.emoji]
 family = "Apple Color Emoji"
