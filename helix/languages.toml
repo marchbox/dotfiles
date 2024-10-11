@@ -15,6 +15,11 @@ command = "biome"
 args = ["lsp-proxy"]
 
 [[language]]
+name = "css"
+language-servers = [ { name = "vscode-css-language-server", except-features = [ "format" ] }, "biome" ]
+auto-format = true
+
+[[language]]
 name = "javascript"
 language-servers = [ { name = "typescript-language-server", except-features = [ "format" ] }, "biome" ]
 auto-format = true
