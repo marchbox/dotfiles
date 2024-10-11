@@ -1,20 +1,23 @@
-theme = "kanagawa"
+theme = "tokyonight"
 
 [editor]
 line-number = "relative"
 cursorline = true
-rulers = [80, 100]
+rulers = [80, 120]
 bufferline = "multiple"
 color-modes = true
 mouse = false
 auto-pairs = false
 auto-format = false
+true-color = true
 
 [editor.cursor-shape]
-normal = "bar"
+normal = "block"
 insert = "bar"
+select = "underline"
 
 [editor.lsp]
+auto-signature-help = false
 display-messages = true
 display-inlay-hints = true
 
