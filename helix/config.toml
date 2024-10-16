@@ -37,6 +37,7 @@ git-ignore = false
 
 [keys.normal]
 ";" = "command_mode"
+"'" = "collapse_selection"
 C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 C-s = ":w"
