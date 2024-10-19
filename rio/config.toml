@@ -16,22 +16,18 @@ program = "/opt/homebrew/bin/fish"
 args = ["--login"]
 
 [fonts]
-size = 14
-extras = [{ family = "JuliaMono" }]
-[fonts.regular]
 family = "MonoLisa"
+size = 14
+[fonts.regular]
 style = "Normal"
 weight = 400
 [fonts.bold]
-family = "MonoLisa"
 style = "Normal"
 weight = 700
 [fonts.italic]
-family = "MonoLisa"
 style = "Italic"
 weight = 400
 [fonts.bold-italic]
-family = "MonoLisa"
 style = "Italic"
 weight = 700
 [fonts.emoji]
