@@ -35,3 +35,6 @@ npm i -g @bramus/caniuse-cli
 
 # fonts
 brew install --cask font-juliamono
+
+# macOS tools
+brew install --cask raycast

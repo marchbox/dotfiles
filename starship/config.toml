@@ -22,7 +22,7 @@ $status\
 $os\
 $container\
 $shell\
-$character
+$character\
 """
 
 [character]
