@@ -8,6 +8,7 @@ brew install zellij
 brew install yarn
 brew install marksman
 brew install starship
+brew install fzf
 
 brew install tlrc
 brew install rm-improved

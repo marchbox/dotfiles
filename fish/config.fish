@@ -21,6 +21,7 @@ abbr --add zz zellij
 abbr --add za zellij a
 abbr --add lg lazygit
 abbr --add nn npm run
+abbr --add ff fzf
 
 # Git
 abbr --add g git
@@ -40,6 +41,9 @@ abbr --add gcl git clean -df
 # Key bindings
 fish_vi_key_bindings
 bind -M insert \cd accept-autosuggestion
+
+# fzf key bindings
+fzf --fish | source
 
 # Starship prompt
 starship init fish | source
