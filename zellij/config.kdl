@@ -4,7 +4,7 @@ simplified_ui true
 
 scrollback_editor "/opt/homebrew/bin/hx"
 
-theme "default"
+theme "tokyo-night-storm"
 
 pane_frames false
 
