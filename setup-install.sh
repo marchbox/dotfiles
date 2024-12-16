@@ -9,6 +9,7 @@ brew install yarn
 brew install marksman
 brew install starship
 brew install fzf
+brew install ack
 
 brew install tlrc
 brew install rm-improved
