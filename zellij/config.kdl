@@ -1,12 +1,8 @@
 default_shell "fish"
-
-simplified_ui true
-
 scrollback_editor "/opt/homebrew/bin/hx"
 
+simplified_ui true
 theme "tokyo-night-storm"
-
-pane_frames false
 
 ui {
     pane_frames {
@@ -15,40 +11,7 @@ ui {
     }
 }
 
-themes { 
-    default {
-        fg "#ebebf5"
-        bg "#000000"
-        black "#1e1e28"
-        red "#ff8795"
-        green "#a8f5ba"
-        yellow "#ffc97d"
-        blue "#9bcaff"
-        magenta "#ff9be3"
-        cyan "#69fff6"
-        white "#e5e1f5"
-        orange "#ffc97d"
-    }
-}
-
 keybinds {
-    shared_except "locked" {
-        unbind "Ctrl q"
-        unbind "Alt ["
-        unbind "Alt ]"
-        // bind "Ctrl w" {
-        //     LaunchPlugin "filepicker" {
-        //         floating true
-        //         close_on_selection true
-        //     };
-        // }
-    }
-
-    session {
-        unbind "Ctrl s"
-        bind "Ctrl f" {SwitchToMode "Scroll";}
-    }
-
     tmux {
         unbind "\""
         unbind "%"
@@ -69,16 +32,6 @@ keybinds {
         bind "7" { GoToTab 7; SwitchToMode "Normal"; }
         bind "8" { GoToTab 8; SwitchToMode "Normal"; }
         bind "9" { GoToTab 9; SwitchToMode "Normal"; }
-    }
-
-    shared_among "scroll" "search" {
-        unbind "Ctrl s"
-        bind "Ctrl f" {SwitchToMode "Normal";}
-    }
-
-    shared_except "scroll" "locked" {
-        unbind "Ctrl s"
-        bind "Ctrl f" {SwitchToMode "Scroll";}
     }
 
     shared_except "tmux" "locked" {
