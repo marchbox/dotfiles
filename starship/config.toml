@@ -36,8 +36,8 @@ vimcmd_visual_symbol = '[←](yellow)'
 symbol = '🌵'
 
 [git_status]
-ahead = '🡑'
-behind = '🡓'
+ahead = '↑'
+behind = '↓'
 
 [aws]
 disabled = true
