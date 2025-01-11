@@ -1,7 +1,14 @@
-command = "/opt/homebrew/bin/fish --login"
-theme = "tokyonight_night"
+command = /opt/homebrew/bin/fish --login
+theme = tokyonight_night
 font-family = "MonoLisa"
 font-size = 14
+window-height = 5000
+window-width = 5000
 window-padding-x = 8
 window-padding-y = 8
-window-colorspace = "display-p3"
+window-colorspace = display-p3
+macos-icon = custom-style
+macos-icon-frame = plastic
+macos-icon-ghost-color = #99ff00
+macos-icon-screen-color = #282c34
+macos-option-as-alt = right
