@@ -3,6 +3,7 @@ fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/
 
 # env
 set EDITOR hx
+set TERM xterm-256color
 
 # nvm
 set NVM_DIR ~/.nvm
