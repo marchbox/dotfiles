@@ -14,3 +14,22 @@ macos-icon-frame = plastic
 macos-icon-ghost-color = #99ff00
 macos-icon-screen-color = #282c34
 macos-option-as-alt = right
+quick-terminal-position = center
+
+keybind = ctrl+q>c=new_tab
+keybind = ctrl+q>x=close_surface
+keybind = ctrl+q>s=new_split:down
+keybind = ctrl+q>v=new_split:right
+keybind = ctrl+q>ctrl+l=new_split:right
+keybind = ctrl+q>ctrl+h=new_split:left
+keybind = ctrl+q>ctrl+k=new_split:up
+keybind = ctrl+q>ctrl+j=new_split:down
+keybind = ctrl+q>h=goto_split:left
+keybind = ctrl+q>j=goto_split:bottom
+keybind = ctrl+q>k=goto_split:top
+keybind = ctrl+q>l=goto_split:right
+keybind = ctrl+shift+h=resize_split:left,30
+keybind = ctrl+shift+l=resize_split:right,30
+keybind = ctrl+shift+j=resize_split:down,30
+keybind = ctrl+shift+k=resize_split:up,30
+keybind = ctrl+q>w=toggle_quick_terminal
