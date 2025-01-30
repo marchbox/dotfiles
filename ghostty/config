@@ -15,6 +15,7 @@ window-padding-x = 8
 window-padding-y = 8
 window-colorspace = display-p3
 window-save-state = always
+window-new-tab-position = end
 
 # macos
 macos-icon = custom-style
@@ -47,6 +48,8 @@ keybind = ctrl+q>h=goto_split:left
 keybind = ctrl+q>j=goto_split:bottom
 keybind = ctrl+q>k=goto_split:top
 keybind = ctrl+q>l=goto_split:right
+keybind = ctrl+q>n=goto_split:next
+keybind = ctrl+q>p=goto_split:previous
 
 keybind = ctrl+super+h=resize_split:left,30
 keybind = ctrl+super+l=resize_split:right,30
@@ -65,3 +68,5 @@ keybind = ctrl+q>6=goto_tab:6
 keybind = ctrl+q>7=goto_tab:7
 keybind = ctrl+q>8=goto_tab:8
 keybind = ctrl+q>9=goto_tab:9
+keybind = ctrl+q>q=next_tab
+keybind = ctrl+q>ctrl+q=next_tab
