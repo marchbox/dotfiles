@@ -4,7 +4,6 @@ brew upgrade
 brew install --cask ghostty
 brew install fish
 brew install helix
-brew install zellij
 brew install yarn
 brew install marksman
 brew install starship
