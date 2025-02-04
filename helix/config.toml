@@ -51,6 +51,7 @@ C-v = "copy_selection_on_next_line"
 g = {t = "goto_next_buffer", T = "goto_previous_buffer"}
 C-m = "save_selection"
 C-x = ":bc"
+C-f = ":fmt"
 
 [keys.insert]
 j = {j = "normal_mode"}
