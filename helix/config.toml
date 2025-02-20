@@ -38,7 +38,7 @@ enable = true
 
 [editor.file-picker]
 hidden = false
-git-ignore = false
+# git-ignore = false
 
 [keys.normal]
 ";" = "command_mode"

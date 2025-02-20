@@ -16,6 +16,8 @@ window-padding-y = 8
 window-colorspace = display-p3
 window-save-state = always
 window-new-tab-position = end
+window-colorspace = display-p3
+split-divider-color = 333
 
 # macos
 macos-icon = custom-style
@@ -24,6 +26,9 @@ macos-icon-ghost-color = #99ff00
 macos-icon-screen-color = #282c34
 macos-option-as-alt = right
 macos-titlebar-style = tabs
+
+# mouse
+mouse-hide-while-typing = true
 
 # quick terminal
 quick-terminal-position = center
