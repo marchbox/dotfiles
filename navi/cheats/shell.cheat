@@ -28,3 +28,9 @@ echo <input> | base64 --decode > <outputfile>
 for f in <pathpattern>; \
   mv $f (echo $f | sed s/<find>/<replace>/); \
 end
+
+# List files with matching pattern
+grep -l <pattern> <path>
+
+# Delete files with matching pattern
+grep -l <pattern> <path> | xargs rm
