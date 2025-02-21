@@ -23,6 +23,8 @@ abbr --add za zellij a
 abbr --add lg lazygit
 abbr --add n npm
 abbr --add nn npm run
+abbr --add nnd npm run dev
+abbr --add nnb npm run build
 abbr --add nnn npm exec
 abbr --add ff fzf
 
