@@ -34,3 +34,6 @@ grep -l <pattern> <path>
 
 # Delete files with matching pattern
 grep -l <pattern> <path> | xargs rm
+
+# Search and replace
+find <path> -type f -exec sed -i '' s/<search>/<replace>/<flag> {} +
