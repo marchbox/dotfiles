@@ -32,6 +32,9 @@ end
 # List files with matching pattern
 grep -l <pattern> <path>
 
+# List files without matching pattern
+grep -L <pattern> <path>
+
 # Delete files with matching pattern
 grep -l <pattern> <path> | xargs rm
 
