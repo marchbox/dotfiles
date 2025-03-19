@@ -47,6 +47,8 @@ abbr --add gcl git clean -df
 # Key bindings
 fish_vi_key_bindings
 bind -M insert \cd accept-autosuggestion
+bind -M insert \ck up-or-search
+bind -M insert \cj down-or-search
 
 # fzf key bindings
 fzf --fish | source
