@@ -2,8 +2,8 @@
 fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/local/git/bin ~/bin ~/google-cloud-sdk/bin ~/Library/pnpm
 
 # env
-set EDITOR hx
-set TERM xterm-256color
+set -gx EDITOR hx
+set -gx TERM xterm-256color
 
 # nvm
 set NVM_DIR ~/.nvm
@@ -27,7 +27,6 @@ abbr --add nnd npm run dev
 abbr --add nnb npm run build
 abbr --add nnn npm exec
 abbr --add ff fzf
-abbr --add y yazi
 
 # Git
 abbr --add g git
