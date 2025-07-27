@@ -12,7 +12,7 @@ brew install ack
 
 brew install tlrc
 brew install rm-improved
-brew install tre-command
+brew install eza
 brew install httpie
 brew install navi
 brew install bat

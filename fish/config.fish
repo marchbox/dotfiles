@@ -4,14 +4,16 @@ fish_add_path -P /opt/homebrew/bin /usr/local/bin /usr/bin /usr/sbin /sbin /usr/
 # env
 set -gx EDITOR hx
 set -gx TERM xterm-256color
+set -gx EZA_CONFIG_DIR ~/.config/eza
 
 # nvm
 set NVM_DIR ~/.nvm
 nvm use node
 
 # Commands
-abbr --add l tre -l 2
-abbr --add ll ls -lha
+abbr --add l eza -1a
+abbr --add ll eza -loa
+abbr --add lll eza -1aT -L 2
 abbr --add md mkdir -p
 abbr --add r rip
 
