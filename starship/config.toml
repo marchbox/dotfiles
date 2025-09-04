@@ -9,20 +9,21 @@ $git_commit\
 $git_state\
 $git_metrics\
 $git_status\
-$direnv\
-$env_var\
-$custom\
+$nodejs\
 $sudo\
+$fill\
+$cmd_duration\
+$time\
 $line_break\
 $jobs\
 $battery\
-$time\
-$status\
-$os\
 $container\
-$shell\
 $character
 """
+
+[directory]
+fish_style_pwd_dir_length = 1
+home_symbol = '🏰'
 
 [character]
 success_symbol = '[→](green)'
@@ -39,11 +40,8 @@ symbol = '🌵'
 ahead = '↑'
 behind = '↓'
 
-[aws]
-disabled = true
+[sudo]
+disabled = false
 
-[gcloud]
-disabled = true
-
-[openstack]
-disabled = true
+[time]
+disabled = false

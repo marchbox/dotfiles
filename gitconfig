@@ -27,7 +27,6 @@
 	side-by-side = true
 	true-color = always
 	syntax-theme = base16
-	file-modified-label = 🥟
 	line-numbers-left-style = black
 	line-numbers-right-style = black
 	line-numbers-zero-style = black
