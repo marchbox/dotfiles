@@ -22,7 +22,7 @@ abbr --add v hx
 abbr --add h hx
 abbr --add zz zellij
 abbr --add za zellij a
-abbr --add lg lazygit
+abbr --add ggg lazygit
 abbr --add n npm
 abbr --add nn npm run
 abbr --add nnd npm run dev
