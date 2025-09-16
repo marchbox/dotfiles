@@ -32,10 +32,12 @@ mouse-hide-while-typing = true
 
 # quick terminal
 quick-terminal-position = center
+quick-terminal-size = "80%,80%"
 
 # key binding
 keybind = ctrl+q>c=new_tab
 keybind = ctrl+q>x=close_surface
+keybind = ctrl+q>m=prompt_surface_title
 
 keybind = ctrl+[=scroll_page_lines:-5
 keybind = ctrl+]=scroll_page_lines:5
