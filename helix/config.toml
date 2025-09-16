@@ -11,6 +11,7 @@ auto-pairs = false
 auto-format = false
 true-color = true
 end-of-line-diagnostics = "hint"
+default-yank-register = "+"
 
 [editor.inline-diagnostics]
 cursor-line = "error"
