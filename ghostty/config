@@ -32,7 +32,7 @@ mouse-hide-while-typing = true
 
 # quick terminal
 quick-terminal-position = center
-quick-terminal-size = "80%,80%"
+quick-terminal-size = "50%,70%"
 
 # key binding
 keybind = ctrl+q>c=new_tab
