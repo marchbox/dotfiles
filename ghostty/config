@@ -38,6 +38,7 @@ quick-terminal-size = "50%,70%"
 keybind = ctrl+q>c=new_tab
 keybind = ctrl+q>x=close_surface
 keybind = ctrl+q>m=prompt_surface_title
+keybind = ctrl+q>o=toggle_command_palette
 
 keybind = ctrl+[=scroll_page_lines:-5
 keybind = ctrl+]=scroll_page_lines:5
