@@ -68,3 +68,13 @@ C-g = [
 [keys.insert]
 C-j = "normal_mode"
 C-p = "signature_help"
+
+[keys.normal.space]
+"'" = "no_op"
+"." = "last_picker"
+";" = [
+    ":write-all",
+    ":insert-output scooter --no-stdin >/dev/tty",
+    ":redraw",
+    ":reload-all"
+]

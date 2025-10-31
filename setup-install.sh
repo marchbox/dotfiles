@@ -16,6 +16,7 @@ brew install eza
 brew install httpie
 brew install navi
 brew install bat
+brew install scooter
 
 brew install lazygit
 brew install git-delta

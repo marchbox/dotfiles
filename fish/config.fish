@@ -29,6 +29,7 @@ abbr --add nnd npm run dev
 abbr --add nnb npm run build
 abbr --add nnn npm exec
 abbr --add ff fzf
+abbr --add ss scooter
 
 # Git
 abbr --add g git
