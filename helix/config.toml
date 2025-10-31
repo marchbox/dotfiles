@@ -42,6 +42,8 @@ hidden = false
 # git-ignore = false
 
 [keys.normal]
+"x" = "select_line_below"
+"X" = "select_line_above"
 ";" = "command_mode"
 "'" = "collapse_selection"
 C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
@@ -54,6 +56,14 @@ C-m = "save_selection"
 C-x = ":bc"
 C-f = ":fmt"
 C-r = ":reflow"
+C-g = [
+    ":write-all",
+    ":new",
+    ":insert-output lazygit",
+    ":buffer-close!",
+    ":redraw",
+    ":reload-all"
+]
 
 [keys.insert]
 j = {j = "normal_mode"}
