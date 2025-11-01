@@ -69,3 +69,6 @@ end
 
 # Starship prompt
 starship init fish | source
+
+# fx JSON viewer
+fx --comp fish | source
