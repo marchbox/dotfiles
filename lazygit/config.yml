@@ -2,8 +2,7 @@ gui:
   timeFormat: 2006-01-02
   shortTimeFormat: 15:04
   showDivergenceFromBaseBranch: arrowAndNumber # or 'onlyArrow'
-
 git:
-  paging:
-    colorArg: always
-    pager: delta --dark --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
+  pagers:
+    - colorArg: always
+      pager: delta --dark --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
