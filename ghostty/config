@@ -1,5 +1,6 @@
 command = /opt/homebrew/bin/fish --login
 theme = "Tokyonight Night"
+clipboard-paste-protection = false
 
 # typography
 font-family = "MonoLisa"
