@@ -16,6 +16,8 @@ abbr --add ll eza -loa
 abbr --add lll eza -1aT -L 2
 abbr --add md mkdir -p
 abbr --add r rip
+abbr --add mv mv -vi
+abbr --add cp cp -vi
 
 # Tools
 abbr --add v hx
