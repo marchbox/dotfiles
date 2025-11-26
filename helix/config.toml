@@ -82,3 +82,12 @@ C-p = "signature_help"
     ":redraw",
     ":reload-all"
 ]
+"z" = [
+    ":write-all",
+    ":new",
+    ":insert-output yazi --chooser-file=/tmp/yazi-chosen",
+    ":buffer-close!",
+    ":redraw",
+    ":open %sh{cat /tmp/yazi-chosen 2>/dev/null || echo ''}",
+    ":reload-all"
+]
