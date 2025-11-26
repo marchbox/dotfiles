@@ -85,9 +85,9 @@ C-p = "signature_help"
 "z" = [
     ":write-all",
     ":new",
-    ":insert-output yazi --chooser-file=/tmp/yazi-chosen",
+    ":insert-output rm -f /tmp/yazi-chosen && yazi --chooser-file=/tmp/yazi-chosen",
     ":buffer-close!",
     ":redraw",
-    ":open %sh{cat /tmp/yazi-chosen 2>/dev/null || echo ''}",
+    ":open %sh{cat /tmp/yazi-chosen 2>/dev/null || true}",
     ":reload-all"
 ]
