@@ -1,0 +1,211 @@
+layout:
+  qmk_keyboard: splitkb/halcyon/ferris/rev1
+  layout_name: LAYOUT_split_3x5_2
+layers:
+  ABC:
+    - [
+        Q,
+        W,
+        E,
+        R,
+        T,
+        Y,
+        U,
+        I,
+        O,
+        P,
+      ]
+    - [
+        {h: Shift, t: A},
+        {h: Alt, t: S},
+        {h: Ctrl, t: D},
+        {h: Cmd, t: F},
+        G,
+        H,
+        {h: Cmd, t: J},
+        {h: Ctrl, t: K},
+        {h: Alt, t: L},
+        {h: Shift, t: BSpc},
+      ]
+    - [
+        Z,
+        X,
+        C,
+        V,
+        B,
+        N,
+        M,
+        {t: ",", s: "<"},
+        {t: ".", s: ">"},
+        {t: "?", s: "/"},
+      ]
+    - Tab
+    - {h: PNT,  t: Space}
+    - {h: SYM}
+    - {h: SYS, t: Enter}
+  SYM:
+    - [
+        {t: "`", s: "~"},
+        "‘|’",
+        "“|”",
+        "’",
+        "'",
+        ";",
+        "(",
+        ")",
+        {t: "[", s: "{"},
+        {t: "]", s: "}"},
+      ]
+    - [
+        {t: "1", s: "!", h: Shift},
+        {t: "2", s: "@", h: Alt},
+        {t: "3", s: "#", h: Ctrl},
+        {t: "4", s: "$", h: Cmd},
+        {t: "5", s: "%"},
+        {t: "6", s: "^"},
+        {t: "7", s: "&", h: Cmd},
+        {t: "8", s: "*", h: Ctrl},
+        {t: "9", h: Alt},
+        {t: BSpc, h: Shift},
+      ]
+    - [
+        "0",
+        "",
+        {t: "-", s: "_"},
+        {t: "=", s: "+"},
+        "\"",
+        ":",
+        {t: "\\", s: "|"},
+        {t: ",", s: "<"},
+        {t: ".", s: ">"},
+        {t: "?", s: "/"},
+      ]
+    - Tab
+    - {t: Space, h: NAV}
+    - {t: "", type: held}
+    - "Layer Lock"
+  PNT:
+    - [
+        "",
+        "",
+        "Wh↑",
+        "",
+        "Ms acc2",
+        "Ms1 (Cmd)",
+        "Ms1",
+        "Ms↑",
+        "Ms2",
+        "Mssn ctrl",
+      ]
+    - [
+        "",
+        "Wh←",
+        "Wh↓",
+        "Wh→",
+        "Ms acc1",
+        "",
+        "Ms←",
+        "Ms↓",
+        "Ms→",
+        "Dskt",
+      ]
+    - [
+        "",
+        "",
+        "Space",
+        "Ms1",
+        "Ms acc0",
+        "",
+        Cmd,
+        "",
+        "",
+        "App wndw",
+      ]
+    - "Layer lock"
+    - {type: "held"}
+    - {h: NAV}
+    - ""
+  NAV:
+    - [
+        "Esc",
+        "",
+        "",
+        "Scrn copy",
+        "Scrn shot",
+        "Line start",
+        "End",
+        "Home",
+        "Line end",
+        "",
+      ]
+    - [
+        {t: "Cap lock", h: Shift},
+        Alt,
+        Ctrl,
+        Cmd,
+        "Tm↑",
+        "←",
+        "↓",
+        "↑",
+        "→",
+        "Del",
+      ]
+    - [
+        "",
+        "",
+        "",
+        "Addr bar",
+        "Tm↓",
+        "Word prev",
+        "Page down",
+        "Page up",
+        "Word next",
+        "",
+      ]
+    - ""
+    - {type: "held"}
+    - {type: "held"}
+    - "Layer lock"
+  SYS:
+    - [
+        "",
+        "",
+        "",
+        "",
+        "Voice Over",
+        "Boot loader",
+        "",
+        "",
+        "",
+        "",
+      ]
+    - [
+        "",
+        "Vol-",
+        "Vol+",
+        "Mute",
+        "",
+        "",
+        "RGB toggle",
+        "RGB mode+",
+        "RGB mode-",
+        "",
+      ]
+    - [
+        "",
+        "Media prev",
+        "Media next",
+        "Media play",
+        "Sleep",
+        "",
+        "",
+        "RGB brt+",
+        "RGB brt-",
+        "",
+      ]
+    - ""
+    - ""
+    - ""
+    - {type: "held"}
+combos:
+  - {p: [0, 1], k: Esc, l: ["ABC"]}
