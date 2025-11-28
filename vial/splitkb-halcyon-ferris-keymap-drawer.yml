@@ -208,6 +208,6 @@ layers:
     - ""
     - {type: "held"}
 combos:
-  - {p: [0, 1], k: Esc, l: ["ABC"]}
+  - {p: [21, 22], k: Esc, l: ["ABC"]}
   - {p: [22, 23], k: Tab, l: ["ABC"]}
   - {p: [26, 27], k: Enter, l: ["ABC"]}
