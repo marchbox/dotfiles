@@ -39,10 +39,10 @@ layers:
         {t: ".", s: ">"},
         {t: "?", s: "/"},
       ]
-    - Tab
+    - ""
     - {h: PNT,  t: Space}
     - {h: SYM}
-    - {h: SYS, t: Enter}
+    - {h: SYS}
   SYM:
     - [
         {t: "`", s: "~"},
@@ -80,7 +80,7 @@ layers:
         {t: ".", s: ">"},
         {t: "?", s: "/"},
       ]
-    - Tab
+    - ""
     - {t: Space, h: NAV}
     - {t: "", type: held}
     - "Layer Lock"
@@ -162,7 +162,7 @@ layers:
         F11,
         F12,
       ]
-    - ""
+    - "Layer lock"
     - {type: "held"}
     - {type: "held"}
     - "Layer lock"
@@ -209,3 +209,5 @@ layers:
     - {type: "held"}
 combos:
   - {p: [0, 1], k: Esc, l: ["ABC"]}
+  - {p: [22, 23], k: Tab, l: ["ABC"]}
+  - {p: [26, 27], k: Enter, l: ["ABC"]}
