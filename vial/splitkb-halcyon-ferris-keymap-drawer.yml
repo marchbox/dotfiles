@@ -145,10 +145,10 @@ layers:
         {t: "End", h: "Cmd"},
         "Scrn copy",
         "←",
-        "↓",
-        "↑",
-        "→",
-        "Del",
+        {t: "↓", h: "Cmd"},
+        {t: "↑", h: "Ctrl"},
+        {t: "→", h: "Alt"},
+        {t: "Del", h: "Shift"},
       ]
     - [
         "Sleep",
