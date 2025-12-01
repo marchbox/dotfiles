@@ -86,7 +86,7 @@ layers:
     - "Layer Lock"
   PNT:
     - [
-        "Ms acc2",
+        "",
         "",
         "Wh↓",
         "",
@@ -98,7 +98,7 @@ layers:
         "",
       ]
     - [
-        "Ms acc1",
+        "Ms acc2",
         "Wh→",
         "Wh↑",
         "Wh←",
