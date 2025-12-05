@@ -42,7 +42,7 @@ layers:
     - "Tab"
     - {h: PNT,  t: Space}
     - {h: SYM, t: Enter}
-    - {h: SYS}
+    - {h: SYS, t: Bspc}
   CMK:
     - [
         Q,
@@ -83,7 +83,7 @@ layers:
     - "Tab"
     - {h: PNT,  t: Space}
     - {h: SYM, t: Enter}
-    - {h: SYS}
+    - {h: SYS, t: Bspc}
   SYM:
     - [
         {t: "1", s: "!"},
@@ -99,32 +99,32 @@ layers:
       ]
     - [
         {t: "`", s: "~", h: "Shift"},
-        {t: "Esc", h: "Alt"},
+        {t: "=", h: "Alt"},
         {t: "-", s: "_", h: "Ctrl"},
-        {t: "=", h: "Cmd"},
-        "+",
+        {t: "+", h: "Cmd"},
         "(",
-        {t: "[", s: "{", h: "Cmd"},
+        "{",
+        {t: "[", h: "Cmd"},
         {t: "\\", s: "|", h: "Ctrl"},
-        {t: "Bspc", h: "Alt"},
+        {t: "", h: "Alt"},
         {t: ";", s: ":", h: "Shift"},
       ]
     - [
-        "‘|’",
-        "“|”",
-        "’",
-        "\"",
+        "",
         "'",
+        {t: "’", h: "‘|’", s: "“|”"},
+        "\"",
         ")",
-        {t: "]", s: "}"},
+        "}",
+        "]",
         {t: ",", s: "<"},
         {t: ".", s: ">"},
         {t: "/", s: "?"},
       ]
-    - "Tab"
+    - Esc
     - {t: Space, h: NAV}
-    - {t: "Enter", type: held}
-    - "Layer Lock"
+    - {t: "", type: held}
+    - Bspc
   PNT:
     - [
         "",
