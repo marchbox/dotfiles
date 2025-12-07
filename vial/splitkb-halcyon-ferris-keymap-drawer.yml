@@ -86,7 +86,7 @@ layers:
     - {h: SYS, t: Bspc}
   SYM:
     - [
-        "",
+        {t: "`", right: "~"},
         {t: "?", right: "!"},
         {t: ".", right: ","},
         "",
@@ -110,7 +110,7 @@ layers:
         {t: "0", s: ")", h: "Shift"},
       ]
     - [
-        {t: "`", right: "~"},
+        {t: "–", right: "—"},
         {t: "-", right: "_"},
         {t: "=", right: "+"},
         {t: "\"", right: "'"},
