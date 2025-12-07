@@ -34,6 +34,8 @@ keybind = shift+alt+[=text:”
 keybind = alt+]=text:‘
 keybind = shift+alt+]=text:’
 keybind = alt+;=text:…
+keybind = alt+-=text:–
+keybind = alt+shift+-=text:—
 
 # mouse
 mouse-hide-while-typing = true
