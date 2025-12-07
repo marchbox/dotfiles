@@ -201,7 +201,7 @@ layers:
         "Term↓",
         "Term↑",
         "",
-        "",
+        "Globe",
       ]
     - ""
     - {type: "held"}
