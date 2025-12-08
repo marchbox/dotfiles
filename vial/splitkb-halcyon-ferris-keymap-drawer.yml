@@ -162,7 +162,7 @@ layers:
         Shift,
         "",
       ]
-    - "Layer lock"
+    - ""
     - {type: "held"}
     - {h: NAV}
     - ""
