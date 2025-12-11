@@ -95,7 +95,7 @@ layers:
         {t: "/", s: "\\"},
         {t: ":", s: ";"},
         {t: "|", s: "&"},
-        "",
+        Enter,
       ]
     - [
         {t: "1", s: "!", h: "Shift"},
@@ -124,7 +124,7 @@ layers:
     - Tab
     - {t: Space, h: NAV}
     - {type: held}
-    - Enter
+    - ""
   PNT:
     - [
         "",
