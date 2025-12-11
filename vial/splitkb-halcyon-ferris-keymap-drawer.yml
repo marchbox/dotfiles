@@ -42,7 +42,7 @@ layers:
     - "Tab"
     - {h: PNT,  t: Space}
     - {h: SYM}
-    - {h: SYS}
+    - {h: SYS, t: Enter}
   CMK:
     - [
         Q,
@@ -83,7 +83,7 @@ layers:
     - "Tab"
     - {h: PNT,  t: Space}
     - {h: SYM}
-    - {h: SYS}
+    - {h: SYS, t: Enter}
   SYM:
     - [
         {t: "`", s: "~"},
@@ -124,7 +124,7 @@ layers:
     - Tab
     - {t: Space, h: NAV}
     - {type: held}
-    - ""
+    - Enter
   PNT:
     - [
         "",
@@ -159,7 +159,7 @@ layers:
         "Vol-",
         Cmd,
         Shift,
-        Enter,
+        "",
         "",
       ]
     - ""
@@ -200,7 +200,7 @@ layers:
         "F12",
         "Term↓",
         "Term↑",
-        Enter,
+        "",
         Globe,
       ]
     - ""
