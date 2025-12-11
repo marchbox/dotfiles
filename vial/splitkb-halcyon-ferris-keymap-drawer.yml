@@ -114,17 +114,17 @@ layers:
         {t: "-", s: "_"},
         {t: "=", s: "+"},
         {t: "\"", s: "'"},
-        Enter,
+        Esc,
         Bspc,
         {t: "(", s: "<"},
         {t: ")", s: ">"},
         {t: "[", s: "{"},
         {t: "]", s: "}"},
       ]
-    - Esc
+    - Tab
     - {t: Space, h: NAV}
-    - {t: "", type: held}
-    - ""
+    - {type: held}
+    - Enter
   PNT:
     - [
         "",
