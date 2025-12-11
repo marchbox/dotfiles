@@ -41,8 +41,8 @@ layers:
       ]
     - "Tab"
     - {h: PNT,  t: Space}
-    - {h: SYM, t: Enter}
-    - {h: SYS, t: Bspc}
+    - {h: SYM}
+    - {h: SYS}
   CMK:
     - [
         Q,
@@ -82,17 +82,17 @@ layers:
       ]
     - "Tab"
     - {h: PNT,  t: Space}
-    - {h: SYM, t: Enter}
-    - {h: SYS, t: Bspc}
+    - {h: SYM}
+    - {h: SYS}
   SYM:
     - [
         {t: "`", s: "~"},
         {t: "?", s: "!"},
         {t: ".", s: ","},
+        {t: "’", s: "“|”", h: "‘|’"},
         "",
         "",
-        "",
-        "",
+        {t: "/", s: "\\"},
         {t: ":", s: ";"},
         {t: "|", s: "&"},
         "",
@@ -114,17 +114,17 @@ layers:
         {t: "-", s: "_"},
         {t: "=", s: "+"},
         {t: "\"", s: "'"},
-        {t: "’", s: "“|”", h: "‘|’"},
-        {t: "[", s: "{"},
+        Enter,
+        Bspc,
         {t: "(", s: "<"},
         {t: ")", s: ">"},
+        {t: "[", s: "{"},
         {t: "]", s: "}"},
-        {t: "/", s: "\\"},
       ]
     - Esc
     - {t: Space, h: NAV}
     - {t: "", type: held}
-    - Bspc
+    - ""
   PNT:
     - [
         "",
