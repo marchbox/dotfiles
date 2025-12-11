@@ -95,7 +95,7 @@ layers:
         {t: "/", s: "\\"},
         {t: ":", s: ";"},
         {t: "|", s: "&"},
-        Enter,
+        "",
       ]
     - [
         {t: "1", s: "!", h: "Shift"},
@@ -158,8 +158,8 @@ layers:
         "Media next",
         "Vol-",
         Cmd,
-        "",
         Shift,
+        Enter,
         "",
       ]
     - ""
@@ -192,7 +192,7 @@ layers:
         {t: "Del", h: "Shift"},
       ]
     - [
-        "Sleep",
+        Sleep,
         "",
         "Page up",
         "Page down",
@@ -200,8 +200,8 @@ layers:
         "F12",
         "Term↓",
         "Term↑",
-        "",
-        "Globe",
+        Enter,
+        Globe,
       ]
     - ""
     - {type: "held"}
