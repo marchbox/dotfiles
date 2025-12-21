@@ -2,47 +2,6 @@ layout:
   qmk_keyboard: splitkb/halcyon/ferris/rev1
   layout_name: LAYOUT_split_3x5_2
 layers:
-  QWE:
-    - [
-        Q,
-        W,
-        E,
-        R,
-        T,
-        Y,
-        U,
-        I,
-        O,
-        P,
-      ]
-    - [
-        {h: Shift, t: A},
-        {h: Alt, t: S},
-        {h: Ctrl, t: D},
-        {h: Cmd, t: F},
-        G,
-        H,
-        {h: Cmd, t: J},
-        {h: Ctrl, t: K},
-        {h: Alt, t: L},
-        {h: Shift, t: ";", s: ":"},
-      ]
-    - [
-        Z,
-        X,
-        C,
-        V,
-        B,
-        N,
-        M,
-        {t: ",", s: "<"},
-        {t: ".", s: ">"},
-        {t: "/", s: "?"},
-      ]
-    - "Tab"
-    - {h: PNT,  t: Space}
-    - {h: SYM}
-    - {h: SYS, t: Enter}
   CMK:
     - [
         Q,
@@ -76,6 +35,47 @@ layers:
         V,
         K,
         H,
+        {t: ",", s: "<"},
+        {t: ".", s: ">"},
+        {t: "/", s: "?"},
+      ]
+    - "Tab"
+    - {h: PNT,  t: Space}
+    - {h: SYM}
+    - {h: SYS, t: Enter}
+  QWE:
+    - [
+        Q,
+        W,
+        E,
+        R,
+        T,
+        Y,
+        U,
+        I,
+        O,
+        P,
+      ]
+    - [
+        {h: Shift, t: A},
+        {h: Alt, t: S},
+        {h: Ctrl, t: D},
+        {h: Cmd, t: F},
+        G,
+        H,
+        {h: Cmd, t: J},
+        {h: Ctrl, t: K},
+        {h: Alt, t: L},
+        {h: Shift, t: ";", s: ":"},
+      ]
+    - [
+        Z,
+        X,
+        C,
+        V,
+        B,
+        N,
+        M,
         {t: ",", s: "<"},
         {t: ".", s: ">"},
         {t: "/", s: "?"},
@@ -213,7 +213,7 @@ layers:
         "",
         "",
         "",
-        "CMK",
+        "QWE",
         "Boot loader",
         "",
         "",
