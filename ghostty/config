@@ -45,46 +45,46 @@ quick-terminal-position = center
 quick-terminal-size = "50%,70%"
 
 # key binding
-keybind = ctrl+;>c=new_tab
-keybind = ctrl+;>x=close_surface
-keybind = ctrl+;>m=prompt_surface_title
-keybind = ctrl+;>o=toggle_command_palette
+keybind = ctrl+e>c=new_tab
+keybind = ctrl+e>x=close_surface
+keybind = ctrl+e>m=prompt_surface_title
+keybind = ctrl+e>o=toggle_command_palette
 
 keybind = ctrl+[=scroll_page_lines:-5
 keybind = ctrl+]=scroll_page_lines:5
 keybind = ctrl+super+[=scroll_to_top
 keybind = ctrl+super+]=scroll_to_bottom
 
-keybind = ctrl+;>s=new_split:down
-keybind = ctrl+;>v=new_split:right
-keybind = ctrl+;>ctrl+l=new_split:right
-keybind = ctrl+;>ctrl+h=new_split:left
-keybind = ctrl+;>ctrl+k=new_split:up
-keybind = ctrl+;>ctrl+j=new_split:down
+keybind = ctrl+e>s=new_split:down
+keybind = ctrl+e>v=new_split:right
+keybind = ctrl+e>ctrl+l=new_split:right
+keybind = ctrl+e>ctrl+h=new_split:left
+keybind = ctrl+e>ctrl+k=new_split:up
+keybind = ctrl+e>ctrl+j=new_split:down
 
-keybind = ctrl+;>h=goto_split:left
-keybind = ctrl+;>j=goto_split:bottom
-keybind = ctrl+;>k=goto_split:top
-keybind = ctrl+;>l=goto_split:right
-keybind = ctrl+;>n=goto_split:next
-keybind = ctrl+;>p=goto_split:previous
+keybind = ctrl+e>h=goto_split:left
+keybind = ctrl+e>j=goto_split:bottom
+keybind = ctrl+e>k=goto_split:top
+keybind = ctrl+e>l=goto_split:right
+keybind = ctrl+e>n=goto_split:next
+keybind = ctrl+e>p=goto_split:previous
 
 keybind = ctrl+super+h=resize_split:left,30
 keybind = ctrl+super+l=resize_split:right,30
 keybind = ctrl+super+j=resize_split:down,30
 keybind = ctrl+super+k=resize_split:up,30
 
-keybind = ctrl+;>w=toggle_quick_terminal
-keybind = ctrl+;>f=toggle_split_zoom
+keybind = ctrl+e>w=toggle_quick_terminal
+keybind = ctrl+e>f=toggle_split_zoom
 
-keybind = ctrl+;>1=goto_tab:1
-keybind = ctrl+;>2=goto_tab:2
-keybind = ctrl+;>3=goto_tab:3
-keybind = ctrl+;>4=goto_tab:4
-keybind = ctrl+;>5=goto_tab:5
-keybind = ctrl+;>6=goto_tab:6
-keybind = ctrl+;>7=goto_tab:7
-keybind = ctrl+;>8=goto_tab:8
-keybind = ctrl+;>9=goto_tab:9
-keybind = ctrl+;>q=next_tab
-keybind = ctrl+;>ctrl+;=next_tab
+keybind = ctrl+e>1=goto_tab:1
+keybind = ctrl+e>2=goto_tab:2
+keybind = ctrl+e>3=goto_tab:3
+keybind = ctrl+e>4=goto_tab:4
+keybind = ctrl+e>5=goto_tab:5
+keybind = ctrl+e>6=goto_tab:6
+keybind = ctrl+e>7=goto_tab:7
+keybind = ctrl+e>8=goto_tab:8
+keybind = ctrl+e>9=goto_tab:9
+keybind = ctrl+e>q=next_tab
+keybind = ctrl+e>ctrl+;=next_tab

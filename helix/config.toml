@@ -85,7 +85,7 @@ C-y = [
 ]
 
 [keys.insert]
-j = { j = "normal_mode" }
+n = { n = "normal_mode" }
 C-p = "signature_help"
 
 [keys.normal.space]
