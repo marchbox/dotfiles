@@ -14,8 +14,8 @@ end-of-line-diagnostics = "hint"
 default-yank-register = "+"
 
 [editor.inline-diagnostics]
-cursor-line = "error"
 other-lines = "error"
+cursor-line = "error"
 
 [editor.cursor-shape]
 normal = "block"
@@ -41,25 +41,55 @@ enable = true
 hidden = false
 # git-ignore = false
 
+# keymap for colemak-dh layout:
+#
+# h → m
+# j → n
+# k → e
+# l → i
+#
+# m → j (except for match mode)
+# n → k
+# e → l
+# i → h
+
 [keys.normal]
-"x" = "select_line_below"
-"X" = "select_line_above"
+m = "move_char_left"
+n = "move_visual_line_down"
+N = "join_selections"
+A-N = "join_selections_space"
+e = "move_visual_line_up"
+E = "keep_selections"
+A-E = "remove_selections"
+i = "move_char_right"
+l = "move_next_word_end"
+L = "move_next_long_word_end"
+A-l = "move_parent_node_end"
+C-h = "jump_forward"
+h = "insert_mode"
+H = "insert_at_line_start"
+A-h = "shrink_selection"
+A-H = "select_all_children"
+k = "search_next"
+K = "search_prev"
+A-k = "select_next_sibling"
+x = "select_line_below"
+X = "select_line_above"
 ";" = "command_mode"
 "'" = "collapse_selection"
 C-d = "no_op"
 C-u = "no_op"
-C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
-C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+C-n = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+C-e = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
 C-s = ":w"
 C-p = "signature_help"
 C-v = "copy_selection_on_next_line"
-g = {t = "goto_next_buffer", T = "goto_previous_buffer"}
-C-m = "save_selection"
+C-j = "save_selection"
 C-x = ":bc"
 C-f = ":fmt"
 C-r = ":reflow"
-A-j = "page_cursor_half_down"
-A-k = "page_cursor_half_up"
+A-n = "page_cursor_half_down"
+A-e = "page_cursor_half_up"
 C-g = [
     ":write-all",
     ":new",
@@ -84,10 +114,93 @@ C-y = [
     ":reload-all"
 ]
 
-[keys.insert]
-n = { n = "normal_mode" }
-C-p = "signature_help"
+[keys.normal.z]
+m = "no_op"
+j = "align_view_middle"
+n = "scroll_down"
+k = "no_op"
+e = "scroll_up"
+
+[keys.normal.g]
+t = "goto_next_buffer"
+T = "goto_previous_buffer"
+l = "goto_last_line"
+m = "goto_line_start"
+i = "goto_line_end"
+h = "goto_implementation"
+j = "goto_last_modified_file"
+k = "goto_next_buffer"
+n = "move_line_down"
+e = "move_line_up"
+
+[keys.normal."C-w"]
+H = "no_op"
+h = "no_op"
+C-h = "no_op"
+J = "no_op"
+j = "no_op"
+C-j = "no_op"
+K = "no_op"
+k = "no_op"
+C-k = "no_op"
+L = "no_op"
+l = "no_op"
+C-l = "no_op"
+M = "swap_view_left"
+m = "jump_view_left"
+C-m = "jump_view_left"
+N = "swap_view_up"
+n = "jump_view_up"
+C-n = "jump_view_up"
+E = "swap_view_down"
+e = "jump_view_down"
+C-e = "jump_view_down"
+I = "swap_view_right"
+i = "jump_view_right"
+C-i = "jump_view_right"
 
 [keys.normal.space]
 "'" = "no_op"
 "." = "last_picker"
+
+[keys.insert]
+n = { n = "normal_mode" }
+C-p = "signature_help"
+C-k = "no_op"
+C-e = "kill_to_line_end"
+C-h = "no_op"
+C-m = "delete_char_backward"
+C-j = "no_op"
+C-n = "insert_newline"
+
+[keys.select]
+m = "extend_char_left"
+M = "keep_selections"
+k = "extend_search_next"
+K = "extend_search_prev"
+n = "extend_visual_line_down"
+N = "join_selections"
+l = "extend_next_word_end"
+L = "extend_next_long_word_end"
+i = "extend_char_right"
+I = "no_op"
+h = "insert_mode"
+H = "insert_at_line_start"
+e = "extend_visual_line_up"
+E = "no_op"
+
+[keys.normal."C-m"]
+m = "match_brackets"
+s = "surround_add"
+r = "surround_replace"
+d = "surround_delete"
+a = "select_textobject_around"
+i = "select_textobject_inner"
+
+[keys.select."C-m"]
+m = "match_brackets"
+s = "surround_add"
+r = "surround_replace"
+d = "surround_delete"
+a = "select_textobject_around"
+i = "select_textobject_inner"
