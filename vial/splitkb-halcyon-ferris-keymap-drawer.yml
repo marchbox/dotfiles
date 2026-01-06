@@ -37,59 +37,18 @@ layers:
         H,
         {t: ",", s: "<"},
         {t: ".", s: ">"},
-        {t: "/", s: "?"},
+        Enter,
       ]
     - "Tab"
     - {h: PNT,  t: Space}
     - {h: SYM}
-    - {h: SYS, t: Enter}
-  QWE:
-    - [
-        Q,
-        W,
-        E,
-        R,
-        T,
-        Y,
-        U,
-        I,
-        O,
-        P,
-      ]
-    - [
-        {h: Shift, t: A},
-        {h: Alt, t: S},
-        {h: Ctrl, t: D},
-        {h: Cmd, t: F},
-        G,
-        H,
-        {h: Cmd, t: J},
-        {h: Ctrl, t: K},
-        {h: Alt, t: L},
-        {h: Shift, t: ";", s: ":"},
-      ]
-    - [
-        Z,
-        X,
-        C,
-        V,
-        B,
-        N,
-        M,
-        {t: ",", s: "<"},
-        {t: ".", s: ">"},
-        {t: "/", s: "?"},
-      ]
-    - "Tab"
-    - {h: PNT,  t: Space}
-    - {h: SYM}
-    - {h: SYS, t: Enter}
+    - {h: SYS, t: Esc}
   SYM:
     - [
         {t: "`", s: "~"},
         {t: "?", s: "!"},
         {t: ".", s: ","},
-        {t: "’", s: "“|”", h: "‘|’"},
+        ",",
         "",
         "",
         {t: "/", s: "\\"},
@@ -114,17 +73,17 @@ layers:
         {t: "-", s: "_"},
         {t: "=", s: "+"},
         {t: "\"", s: "'"},
-        Esc,
-        "",
+        {t: "’", s: "“|”", h: "‘|’"},
+        {t: "[", s: "{"},
         {t: "(", s: "<"},
         {t: ")", s: ">"},
-        {t: "[", s: "{"},
         {t: "]", s: "}"},
+        Enter,
       ]
     - Tab
     - {t: Space, h: NAV}
     - {type: held}
-    - Enter
+    - Esc
   PNT:
     - [
         "",
