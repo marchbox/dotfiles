@@ -1,0 +1,93 @@
+theme = "tokyonight"
+
+[editor]
+line-number = "relative"
+cursorline = true
+rulers = [80, 120]
+bufferline = "multiple"
+color-modes = true
+mouse = false
+auto-pairs = false
+auto-format = false
+true-color = true
+end-of-line-diagnostics = "hint"
+default-yank-register = "+"
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+other-lines = "error"
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.lsp]
+auto-signature-help = false
+display-messages = true
+display-inlay-hints = true
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+
+[editor.indent-guides]
+render = true
+
+[editor.soft-wrap]
+enable = true
+
+[editor.file-picker]
+hidden = false
+# git-ignore = false
+
+[keys.normal]
+"x" = "select_line_below"
+"X" = "select_line_above"
+";" = "command_mode"
+"'" = "collapse_selection"
+C-d = "no_op"
+C-u = "no_op"
+C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+C-s = ":w"
+C-p = "signature_help"
+C-v = "copy_selection_on_next_line"
+g = {t = "goto_next_buffer", T = "goto_previous_buffer"}
+C-m = "save_selection"
+C-x = ":bc"
+C-f = ":fmt"
+C-r = ":reflow"
+A-j = "page_cursor_half_down"
+A-k = "page_cursor_half_up"
+C-g = [
+    ":write-all",
+    ":new",
+    ":insert-output lazygit",
+    ":buffer-close!",
+    ":redraw",
+    ":reload-all"
+]
+"A-/" = [
+    ":write-all",
+    ":insert-output scooter --no-stdin >/dev/tty",
+    ":redraw",
+    ":reload-all"
+]
+C-y = [
+    ":write-all",
+    ":new",
+    ":insert-output rm -f /tmp/yazi-chosen && yazi --chooser-file=/tmp/yazi-chosen",
+    ":buffer-close!",
+    ":redraw",
+    ":open %sh{cat /tmp/yazi-chosen 2>/dev/null || true}",
+    ":reload-all"
+]
+
+[keys.insert]
+n = { n = "normal_mode" }
+C-p = "signature_help"
+
+[keys.normal.space]
+"'" = "no_op"
+"." = "last_picker"
