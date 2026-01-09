@@ -37,12 +37,12 @@ layers:
         H,
         {t: ",", s: "<"},
         {t: ".", s: ">"},
-        Enter,
+        Esc,
       ]
     - "Tab"
     - {h: PNT,  t: Space}
     - {h: SYM}
-    - {h: SYS, t: Esc}
+    - {h: SYS, t: Enter}
   SYM:
     - [
         {t: "`", s: "~"},
@@ -78,12 +78,12 @@ layers:
         {t: "(", s: "<"},
         {t: ")", s: ">"},
         {t: "]", s: "}"},
-        Enter,
+        Esc,
       ]
     - Tab
     - {t: Space, h: NAV}
     - {type: held}
-    - Esc
+    - Enter
   PNT:
     - [
         "",
