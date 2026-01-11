@@ -117,9 +117,9 @@ layers:
         "Media next",
         "Vol-",
         Cmd,
+        Ctrl,
+        Alt,
         Shift,
-        "",
-        "",
       ]
     - ""
     - {type: "held"}
