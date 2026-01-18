@@ -1,0 +1,176 @@
+layout:
+  qmk_keyboard: beekeeb/3w6hs
+  layout_name: LAYOUT_split_3x5_3
+layers:
+  CMK:
+    - [
+        Q,
+        W,
+        F,
+        P,
+        B,
+        J,
+        L,
+        U,
+        Y,
+        Bspc,
+      ]
+    - [
+        A,
+        R,
+        S,
+        T,
+        G,
+        M,
+        N,
+        E,
+        I,
+        O,
+      ]
+    - [
+        {t: Z, h: Shift},
+        {t: X, h: Alt},
+        C,
+        D,
+        V,
+        K,
+        H,
+        {t: ",", s: "<"},
+        {t: ".", s: ">", h: Alt},
+        {t: Esc, h: Shift}
+      ]
+    - {t: Esc, h: Ctrl}
+    - {t: Tab, h: Cmd}
+    - {h: PNT,  t: Space}
+    - {h: SYM}
+    - {t: Enter, h: Cmd}
+    - {t: Bspc, h: Ctrl}
+  SYM:
+    - [
+        {t: "`", s: "~"},
+        ".",
+        ",",
+        {t: "!", s: "?"},
+        {t: "“|”", s: "‘|’"},
+        {t: "–", s: "—"},
+        {t: "|", s: "&"},
+        {t: ":", s: ";"},
+        {t: "/", s: "\\"},
+        Bspc,
+      ]
+    - [
+        {t: "1", s: "!"},
+        {t: "2", s: "@"},
+        {t: "3", s: "#"},
+        {t: "4", s: "$"},
+        {t: "5", s: "%"},
+        {t: "6", s: "^"},
+        {t: "7", s: "&"},
+        {t: "8", s: "*"},
+        {t: "9", s: "("},
+        {t: "0", s: ")"},
+      ]
+    - [
+        {t: "=", h: Shift},
+        {t: "-", s: "_", h: Alt},
+        "+",
+        {t: "\"", s: "'"},
+        "’",
+        {t: "[", s: "{"},
+        {t: "(", s: "<"},
+        {t: ")", s: ">"},
+        {t: "]", s: "}", h: Alt},
+        {t: Esc, h: Shift}
+      ]
+    - {t: Esc, h: Ctrl}
+    - {t: Tab, h: Cmd}
+    - {t: Space, h: NAV}
+    - {type: held}
+    - {t: Enter, h: Cmd}
+    - {t: Bspc, h: Ctrl}
+  PNT:
+    - [
+        "",
+        "",
+        "Wh↓",
+        "",
+        "Media prev",
+        "Vol+",
+        "",
+        "Ms↑",
+        "",
+        "",
+      ]
+    - [
+        "Ms acc2",
+        "Wh→",
+        "Wh↑",
+        "Wh←",
+        "Media play",
+        "Mute",
+        "Ms←",
+        "Ms↓",
+        "Ms→",
+        "",
+      ]
+    - [
+        "Ms acc0",
+        "Ms2",
+        "Space",
+        "Ms1",
+        "Media next",
+        "Vol-",
+        "",
+        "",
+        Alt,
+        Shift,
+      ]
+    - ""
+    - ""
+    - {type: "held"}
+    - {h: NAV}
+    - Cmd
+    - Ctrl
+  NAV:
+    - [
+        F1,
+        F2,
+        F3,
+        F4,
+        F5,
+        F6,
+        F7,
+        F8,
+        F9,
+        F10,
+      ]
+    - [
+        "Cap lock",
+        Sleep,
+        Home,
+        End,
+        {t: "Scrn copy", right: "Scrn shot"},
+        "←",
+        "↓",
+        "↑",
+        "→",
+        Del,
+      ]
+    - [
+        Shift,
+        Alt,
+        "Page up",
+        "Page down",
+        "F11",
+        "F12",
+        "Term↓",
+        "Term↑",
+        Alt,
+        Shift,
+      ]
+    - Ctrl
+    - Cmd
+    - {type: "held"}
+    - {type: "held"}
+    - Cmd
+    - Ctrl
