@@ -118,15 +118,19 @@ C-y = [
 m = "no_op"
 j = "align_view_middle"
 n = "scroll_down"
-k = "no_op"
+k = "search_next"
+K = "search_prev"
 e = "scroll_up"
+N = "no_op"
 
 [keys.normal.Z]
 m = "no_op"
 j = "align_view_middle"
 n = "scroll_down"
-k = "no_op"
+k = "search_next"
+K = "search_prev"
 e = "scroll_up"
+N = "no_op"
 
 [keys.normal.g]
 t = "goto_next_buffer"
