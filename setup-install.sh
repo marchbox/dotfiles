@@ -29,7 +29,7 @@ brew cleanup
 nvm install node
 
 # Helix lsp servers
-brew install biome
+npm i -g @biomejs/biome
 npm i -g vscode-langservers-extracted
 npm i -g typescript typescript-language-server
 
