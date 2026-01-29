@@ -29,22 +29,22 @@ layers:
       ]
     - [
         {t: Z, h: Shift},
-        {t: X, h: Alt},
+        {t: X, h: Ctrl},
         C,
         D,
         V,
         K,
         H,
         {t: ",", s: "<"},
-        {t: ".", s: ">", h: Alt},
+        {t: ".", s: ">", h: Ctrl},
         {t: Esc, h: Shift}
       ]
-    - {t: Esc, h: Ctrl}
+    - {t: Esc, h: Alt}
     - {t: Tab, h: Cmd}
     - {h: PNT,  t: Space}
     - {h: SYM}
     - {t: Enter, h: Cmd}
-    - {t: Bspc, h: Ctrl}
+    - {t: Bspc, h: Alt}
   SYM:
     - [
         {t: "`", s: "~"},
@@ -72,22 +72,22 @@ layers:
       ]
     - [
         {t: "=", h: Shift},
-        {t: "-", s: "_", h: Alt},
+        {t: "-", s: "_", h: Ctrl},
         "+",
         {t: "\"", s: "'"},
         "’",
         {t: "[", s: "{"},
         {t: "(", s: "<"},
         {t: ")", s: ">"},
-        {t: "]", s: "}", h: Alt},
+        {t: "]", s: "}", h: Ctrl},
         {t: Esc, h: Shift}
       ]
-    - {t: Esc, h: Ctrl}
+    - {t: Esc, h: Alt}
     - {t: Tab, h: Cmd}
     - {t: Space, h: NAV}
     - {type: held}
     - {t: Enter, h: Cmd}
-    - {t: Bspc, h: Ctrl}
+    - {t: Bspc, h: Alt}
   PNT:
     - [
         "",
@@ -122,7 +122,7 @@ layers:
         "Vol-",
         "",
         "",
-        Alt,
+        Ctrl,
         Shift,
       ]
     - ""
@@ -130,7 +130,7 @@ layers:
     - {type: "held"}
     - {h: NAV}
     - Cmd
-    - Ctrl
+    - Alt
   NAV:
     - [
         F1,
@@ -158,19 +158,19 @@ layers:
       ]
     - [
         Shift,
-        Alt,
+        Ctrl,
         "Page up",
         "Page down",
         "F11",
         "F12",
         "Term↓",
         "Term↑",
-        Alt,
+        Ctrl,
         Shift,
       ]
-    - Ctrl
+    - Alt
     - Cmd
     - {type: "held"}
     - {type: "held"}
     - Cmd
-    - Ctrl
+    - Alt
