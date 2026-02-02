@@ -39,10 +39,10 @@ layers:
         {t: ".", s: ">"},
         Esc,
       ]
-    - "Tab"
+    - ""
     - {h: PNT,  t: Space}
     - {h: SYM}
-    - {h: SYS, t: Enter}
+    - {h: SYS}
   SYM:
     - [
         {t: "`", s: "~"},
@@ -69,9 +69,9 @@ layers:
         {t: "0", s: ")", h: "Shift"},
       ]
     - [
+        "",
         {t: "-", s: "_"},
-        "+",
-        "=",
+        {t: "=", s: "+"},
         {t: "\"", s: "'"},
         "’",
         {t: "[", s: "{"},
@@ -80,10 +80,10 @@ layers:
         {t: "]", s: "}"},
         Esc,
       ]
-    - Tab
+    - ""
     - {t: Space, h: NAV}
     - {type: held}
-    - Enter
+    - ""
   PNT:
     - [
         "",
@@ -207,3 +207,6 @@ layers:
     - ""
     - ""
     - {type: "held"}
+combos:
+    - {p: [21, 22], k: Tab, l: ["CMK", "SYM"]}
+    - {p: [27, 28], k: Enter, l: ["CMK", "SYM"]}
