@@ -1,3 +1,4 @@
+# https://keymap-drawer.streamlit.app/
 layout:
   qmk_keyboard: splitkb/halcyon/ferris/rev1
   layout_name: LAYOUT_split_3x5_2
@@ -13,7 +14,7 @@ layers:
         L,
         U,
         Y,
-        Bspc,
+        {t: ";", s: ":"},
       ]
     - [
         {t: A, h: Shift},
@@ -39,7 +40,7 @@ layers:
         {t: ".", s: ">"},
         "’",
       ]
-    - ""
+    - Bspc
     - {h: PNT,  t: Space}
     - {h: SYM}
     - {h: SYS}
@@ -80,7 +81,7 @@ layers:
         {t: "<", s: "‘"},
         {t: ">", s: "’"},
       ]
-    - ""
+    - Bspc
     - {t: Space, h: NAV}
     - {type: held}
     - ""
@@ -209,6 +210,6 @@ layers:
     - {type: "held"}
 combos:
     - {p: [1, 2], k: Esc, l: [CMK, SYM]}
-    - {p: [7, 8], k: Bspc, l: [CMK, SYM]}
+    # - {p: [7, 8], k: Bspc, l: [CMK, SYM]}
     - {p: [21, 22], k: Tab, l: ["CMK", "SYM"]}
     - {p: [27, 28], k: Enter, l: ["CMK", "SYM"]}
