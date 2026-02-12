@@ -43,7 +43,7 @@ layers:
     - Bspc
     - {h: PNT,  t: Space}
     - {h: SYM}
-    - {h: SYS}
+    - {h: SYS, t: Esc}
   SYM:
     - [
         {t: "@", s: "%"},
@@ -88,44 +88,44 @@ layers:
   PNT:
     - [
         "",
-        "",
-        "Wh↓",
+        "Ms acc0",
+        "Ms acc2",
         "",
         "Media prev",
         "Vol+",
         "",
-        "Ms↑",
+        {t: "Ms↑", s: "Wh↓"},
         "",
         "",
       ]
     - [
-        "Ms acc2",
-        "Wh→",
-        "Wh↑",
-        "Wh←",
+        Shift,
+        Alt,
+        Ctrl,
+        Cmd,
         "Media play",
         "Mute",
-        "Ms←",
-        "Ms↓",
-        "Ms→",
+        {t: "Ms←", s: "Wh→"},
+        {t: "Ms↓", s: "Wh↑"},
+        {t: "Ms→", s: "Wh←"},
         "",
       ]
     - [
-        "Ms acc0",
+        "",
         "Ms2",
         "Space",
         "Ms1",
         "Media next",
         "Vol-",
-        Cmd,
-        Ctrl,
-        Alt,
-        Shift,
+        "",
+        "",
+        "",
+        "",
       ]
     - ""
     - {type: "held"}
     - {h: NAV}
-    - ""
+    - Cmd
   NAV:
     - [
         F1,
@@ -209,7 +209,7 @@ layers:
     - ""
     - {type: "held"}
 combos:
-    - {p: [1, 2], k: Esc, l: [CMK, SYM]}
+    # - {p: [1, 2], k: Esc, l: [CMK, SYM]}
     # - {p: [7, 8], k: Bspc, l: [CMK, SYM]}
     - {p: [21, 22], k: Tab, l: ["CMK", "SYM"]}
     - {p: [27, 28], k: Enter, l: ["CMK", "SYM"]}
