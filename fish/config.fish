@@ -63,6 +63,7 @@ abbr --add cp cp -vi
 # Tools
 abbr --add v hx
 abbr --add h hx
+abbr --add vv hx --config ~/.config/helix/config-qwerty.toml
 abbr --add zz zellij
 abbr --add za zellij a
 abbr --add gg lazygit
