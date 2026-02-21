@@ -42,7 +42,7 @@ layers:
       ]
     - Bspc
     - {h: PNT,  t: Space}
-    - {h: SYM}
+    - {h: SYM, t: Space}
     - {h: SYS, t: Esc}
   SYM:
     - [
