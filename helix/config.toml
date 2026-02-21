@@ -173,7 +173,6 @@ C-i = "jump_view_right"
 "." = "last_picker"
 
 [keys.insert]
-n = { n = "normal_mode" }
 C-p = "signature_help"
 C-k = "no_op"
 C-e = "kill_to_line_end"

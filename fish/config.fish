@@ -117,3 +117,9 @@ starship init fish | source
 
 # fx JSON viewer
 fx --comp fish | source
+
+# local config
+set -l local_config ~/config-local.fish
+if test -f $local_config
+	source $local_config
+end
