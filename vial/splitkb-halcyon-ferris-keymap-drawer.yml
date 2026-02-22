@@ -40,7 +40,7 @@ layers:
         {t: ".", s: ">"},
         "’",
       ]
-    - Bspc
+    - {t: Bspc, s: Del}
     - {h: PNT,  t: Space}
     - {h: SYM, t: Space}
     - {h: SYS, t: Esc}
@@ -81,7 +81,7 @@ layers:
         {t: "<", s: "‘"},
         {t: ">", s: "’"},
       ]
-    - Bspc
+    - {t: Bspc, s: Del}
     - {t: Space, h: NAV}
     - {type: held}
     - ""
@@ -140,7 +140,7 @@ layers:
         F10,
       ]
     - [
-        {t: "Cap lock", h: Shift},
+        {t: "F11", h: Shift},
         Alt,
         {t: "Home", h: "Ctrl"},
         {t: "End", h: "Cmd"},
@@ -149,19 +149,19 @@ layers:
         {t: "↓", h: "Cmd"},
         {t: "↑", h: "Ctrl"},
         {t: "→", h: "Alt"},
-        {t: "Del", h: "Shift"},
+        {t: "F12", h: "Shift"},
       ]
     - [
         Sleep,
         "",
         "Page up",
         "Page down",
-        "F11",
-        "F12",
+        "",
+        "",
         "Term↓",
         "Term↑",
         "",
-        Globe,
+        "",
       ]
     - ""
     - {type: "held"}
@@ -209,7 +209,7 @@ layers:
     - ""
     - {type: "held"}
 combos:
-    # - {p: [1, 2], k: Esc, l: [CMK, SYM]}
+    - {p: [1, 2], k: Cap, l: [CMK]}
     # - {p: [7, 8], k: Bspc, l: [CMK, SYM]}
     - {p: [21, 22], k: Tab, l: ["CMK", "SYM"]}
     - {p: [27, 28], k: Enter, l: ["CMK", "SYM"]}
