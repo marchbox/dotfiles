@@ -42,7 +42,7 @@ layers:
       ]
     - {t: Bspc, s: Del}
     - {h: PNT,  t: Space}
-    - {h: SYM, t: Space}
+    - {h: SYM}
     - {h: SYS, t: Esc}
   SYM:
     - [
@@ -117,15 +117,15 @@ layers:
         "Ms1",
         "Media next",
         "Vol-",
+        "Ms1",
         "",
-        "",
-        "",
+        "Ms2",
         "",
       ]
     - ""
     - {type: "held"}
     - {h: NAV}
-    - Cmd
+    - ""
   NAV:
     - [
         F1,
@@ -140,11 +140,11 @@ layers:
         F10,
       ]
     - [
-        {t: "F11", h: Shift},
-        Alt,
-        {t: "Home", h: "Ctrl"},
-        {t: "End", h: "Cmd"},
-        {t: "Scrn copy", right: "Scrn shot"},
+        {t: F11, h: Shift},
+        {t: End, h: Alt},
+        {t: "Page up", h: Ctrl},
+        {t: "Page down", h: Cmd},
+        Home,
         "←",
         {t: "↓", h: "Cmd"},
         {t: "↑", h: "Ctrl"},
@@ -152,14 +152,14 @@ layers:
         {t: "F12", h: "Shift"},
       ]
     - [
+        "",
+        "",
+        "",
+        "",
         Sleep,
-        "",
-        "Page up",
-        "Page down",
+        {t: "Scrn copy", right: "Scrn shot"},
         "",
         "",
-        "Term↓",
-        "Term↑",
         "",
         "",
       ]
