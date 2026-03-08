@@ -54,6 +54,7 @@ hidden = false
 # i → h
 
 [keys.normal]
+"|" = "align_selections"
 m = "move_char_left"
 n = "move_visual_line_down"
 N = "join_selections"
