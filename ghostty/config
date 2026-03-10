@@ -26,16 +26,7 @@ macos-icon-frame = plastic
 macos-icon-ghost-color = #99ff00
 macos-icon-screen-color = #282c34
 macos-titlebar-style = tabs
-macos-option-as-alt = true
-## rebind proper quote marks
-keybind = shift+alt+]=text:’
-keybind = alt+[=text:“
-keybind = shift+alt+[=text:”
-keybind = alt+]=text:‘
-keybind = shift+alt+]=text:’
-keybind = alt+;=text:…
-keybind = alt+-=text:–
-keybind = alt+shift+-=text:—
+macos-option-as-alt = left
 
 # mouse
 mouse-hide-while-typing = true
