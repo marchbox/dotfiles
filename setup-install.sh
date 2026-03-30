@@ -4,12 +4,12 @@ brew upgrade
 brew install --cask ghostty
 brew install fish
 brew install helix
-brew install yarn
 brew install marksman
 brew install starship
 brew install fzf
 brew install ack
 brew install fx
+brew install typos-lsp
 
 brew install tlrc
 brew install rm-improved

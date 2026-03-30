@@ -10,3 +10,4 @@ ln -s ~/dotfiles/yazi ~/.config/
 ln -s ~/dotfiles/starship/config.toml ~/.config/starship.toml
 ln -s ~/dotfiles/lazygit/config.yml ~/Library/Application\ Support/lazygit/config.yml
 ln -s ~/dotfiles/scooter ~/.config/
+ln -s ~/dotfiles/typos ~/.config/
