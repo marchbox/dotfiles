@@ -1,5 +1,5 @@
 command = /opt/homebrew/bin/fish --login
-theme = "Tokyonight Night"
+theme = "Nord Wave"
 clipboard-paste-protection = false
 
 # typography
