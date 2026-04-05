@@ -26,6 +26,10 @@ name = "markdown"
 language-servers = ["typos"]
 
 [[language]]
+name = "devicetree"
+file-types = ["keymap"]
+
+[[language]]
 name = "css"
 language-servers = [
   { name = "vscode-css-language-server", except-features = [ "format" ] },
