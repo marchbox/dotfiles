@@ -1,4 +1,4 @@
-theme = "focus_nova"
+theme = "tokyonight"
 
 [editor]
 line-number = "relative"
