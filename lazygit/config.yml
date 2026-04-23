@@ -6,3 +6,15 @@ git:
   pagers:
     - colorArg: always
       pager: delta --dark --paging=never --line-numbers --hyperlinks --hyperlinks-file-link-format="lazygit-edit://{path}:{line}"
+keybinding:
+  universal:
+    prevItem-alt: e
+    nextItem-alt: n
+    edit: h
+    scrollUpMain-alt1: E
+    scrollDownMain-alt1: N
+    scrollLeft: M
+    scrollRight: I
+    nextMatch: f
+    prevMatch: F
+    new: <c-n>
