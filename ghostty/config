@@ -36,6 +36,9 @@ quick-terminal-position = center
 quick-terminal-size = "50%,70%"
 
 # key binding
+keybind = super+t=ignore
+keybind = super+w=ignore
+
 keybind = ctrl+t>c=new_tab
 keybind = ctrl+t>x=close_surface
 keybind = ctrl+t>h=prompt_surface_title
