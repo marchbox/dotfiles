@@ -48,7 +48,7 @@ hidden = false
 # k → e
 # l → i
 #
-# m → j (except for match mode)
+# m → j
 # n → k
 # e → l
 # i → h
@@ -172,6 +172,8 @@ C-i = "jump_view_right"
 [keys.normal.space]
 "'" = "no_op"
 "." = "last_picker"
+f = "file_picker_in_current_directory"
+F = "file_picker"
 
 [keys.insert]
 C-p = "signature_help"
@@ -198,16 +200,16 @@ H = "insert_at_line_start"
 e = "extend_visual_line_up"
 E = "no_op"
 
-[keys.normal."C-m"]
-m = "match_brackets"
+[keys.normal.j]
+j = "match_brackets"
 s = "surround_add"
 r = "surround_replace"
 d = "surround_delete"
 a = "select_textobject_around"
 i = "select_textobject_inner"
 
-[keys.select."C-m"]
-m = "match_brackets"
+[keys.select.j]
+j = "match_brackets"
 s = "surround_add"
 r = "surround_replace"
 d = "surround_delete"
