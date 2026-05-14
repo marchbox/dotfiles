@@ -35,6 +35,7 @@ npm i -g typescript typescript-language-server
 
 # more tools from npm
 npm i -g @bramus/caniuse-cli
+npm i -g web-features-cli
 
 # fonts
 brew install --cask font-noto-sans-sc
