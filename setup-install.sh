@@ -25,17 +25,11 @@ brew install git-delta
 brew cleanup
 
 # nvm and node
+# Globally installed npm packages are listed in nvm/default-packages
+# and symlinked to ~/.nvm/default-packages by setup-symlinks.sh.
+# Run setup-symlinks.sh before this script so nvm picks them up.
 
 nvm install node
-
-# Helix lsp servers
-npm i -g @biomejs/biome
-npm i -g vscode-langservers-extracted
-npm i -g typescript typescript-language-server
-
-# more tools from npm
-npm i -g @bramus/caniuse-cli
-npm i -g web-features-cli
 
 # fonts
 brew install --cask font-noto-sans-sc
