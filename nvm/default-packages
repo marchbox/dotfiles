@@ -4,3 +4,4 @@ typescript
 typescript-language-server
 @bramus/caniuse-cli
 web-features-cli
+@github/copilot
