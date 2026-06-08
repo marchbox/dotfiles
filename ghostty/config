@@ -41,7 +41,6 @@ keybind = super+w=ignore
 
 keybind = ctrl+t>c=new_tab
 keybind = ctrl+t>x=close_surface
-keybind = ctrl+t>h=prompt_surface_title
 keybind = ctrl+t>o=toggle_command_palette
 
 keybind = ctrl+[=scroll_page_lines:-5
@@ -49,17 +48,17 @@ keybind = ctrl+]=scroll_page_lines:5
 
 keybind = ctrl+t>s=new_split:down
 keybind = ctrl+t>v=new_split:right
-keybind = ctrl+t>ctrl+l=new_split:right
-keybind = ctrl+t>ctrl+h=new_split:left
-keybind = ctrl+t>ctrl+k=new_split:up
-keybind = ctrl+t>ctrl+j=new_split:down
+keybind = ctrl+t>ctrl+e=new_split:up
+keybind = ctrl+t>ctrl+m=new_split:left
+keybind = ctrl+t>ctrl+i=new_split:right
+keybind = ctrl+t>ctrl+n=new_split:down
 
-keybind = ctrl+t>m=goto_split:left
-keybind = ctrl+t>n=goto_split:bottom
 keybind = ctrl+t>e=goto_split:top
+keybind = ctrl+t>n=goto_split:bottom
+keybind = ctrl+t>m=goto_split:left
 keybind = ctrl+t>i=goto_split:right
-keybind = ctrl+t>k=goto_split:next
-keybind = ctrl+t>p=goto_split:previous
+keybind = ctrl+t>h=goto_split:next
+keybind = ctrl+t>d=goto_split:previous
 
 keybind = resize/e=resize_split:up,30
 keybind = resize/n=resize_split:down,30
