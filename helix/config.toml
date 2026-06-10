@@ -78,6 +78,12 @@ C-y = [
     ":reload-all"
 ]
 
+[keys.normal.g]
+up = "goto_file_start"
+down = "goto_last_line"
+left = "goto_line_start"
+right = "goto_line_end"
+
 [keys.normal.space]
 "'" = "no_op"
 "." = "last_picker"
