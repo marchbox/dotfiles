@@ -25,7 +25,7 @@ macos-icon = custom-style
 macos-icon-frame = plastic
 macos-icon-ghost-color = #99ff00
 macos-icon-screen-color = #282c34
-macos-titlebar-style = tabs
+# macos-titlebar-style = tabs
 macos-option-as-alt = left
 
 # mouse
