@@ -4,6 +4,7 @@
 
 ln -s ~/dotfiles/ghostty ~/.config/
 ln -s ~/dotfiles/fish ~/.config/
+ln -s ~/dotfiles/nvim ~/.config/
 ln -s ~/dotfiles/helix ~/.config/
 ln -s ~/dotfiles/navi ~/.config/
 ln -s ~/dotfiles/eza ~/.config/
