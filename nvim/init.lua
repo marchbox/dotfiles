@@ -164,6 +164,9 @@ do
   -- Show which line your cursor is on
   vim.o.cursorline = true
 
+  -- Show vertical guides
+  vim.o.colorcolumn = '80,100'
+
   -- Minimal number of screen lines to keep above and below the cursor.
   vim.o.scrolloff = 10
 
@@ -996,7 +999,9 @@ end
 do
   vim.pack.add {
     gh 'kdheepak/lazygit.nvim',
+    gh 'akinsho/bufferline.nvim',
   }
+  require('bufferline').setup()
 end
 
 -- The line beneath this is called `modeline`. See `:help modeline`
