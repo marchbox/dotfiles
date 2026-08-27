@@ -999,9 +999,7 @@ end
 do
   vim.pack.add {
     gh 'kdheepak/lazygit.nvim',
-    gh 'akinsho/bufferline.nvim',
   }
-  require('bufferline').setup()
 end
 
 -- The line beneath this is called `modeline`. See `:help modeline`
