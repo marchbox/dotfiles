@@ -8,7 +8,19 @@ require('oil').setup {
     padding = 8,
     max_width = 0.6,
     max_height = 0.6,
-    border = { "╭", "─", "╮", "│", "╯", "─", "╰", "│" },
+    border = 'single',
+  },
+  confirmation = {
+    border = 'single',
+  },
+  progress = {
+    border = 'single',
+  },
+  keymaps_help = {
+    border = 'single',
+  },
+  view_options = {
+    show_hidden = true,
   },
 }
 
