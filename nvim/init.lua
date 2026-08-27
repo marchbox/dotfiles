@@ -224,6 +224,9 @@ do
   -- NOTE: This won't work in all terminal emulators/tmux/etc. Try your own mapping
   -- or just use <C-\><C-n> to exit terminal mode
   vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
+  vim.keymap.set("n", "<leader>`t", "<cmd>terminal<CR>", { desc = "Open terminal in current window" })
+  vim.keymap.set('n', '<leader>`h', '<cmd>new | terminal<CR>', { desc = 'Open terminal in a [H]orizontal split' })
+  vim.keymap.set('n', '<leader>`v', '<cmd>vnew | terminal<CR>', { desc = 'Open terminal in a [V]ertical split' })
 
   -- TIP: Disable arrow keys in normal mode
   -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
@@ -257,6 +260,9 @@ do
     group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
     callback = function() vim.hl.on_yank() end,
   })
+
+  -- Terminal
+  vim.keymap.set("n", "<leader>tt", vim.api.nvim_open_term, { desc = "Open terminal" })
 end
 
 -- ============================================================
@@ -378,6 +384,7 @@ do
     spec = {
       { '<leader>s', group = '[S]earch', mode = { 'n', 'v' } },
       { '<leader>t', group = '[T]oggle' },
+      { '<leader>`', group = 'Terminal' },
       { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } }, -- Enable gitsigns recommended keymaps first
       { 'gr', group = 'LSP Actions', mode = { 'n' } },
     },
