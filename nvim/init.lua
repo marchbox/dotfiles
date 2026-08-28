@@ -191,6 +191,12 @@ do
   --  See `:help hlsearch`
   vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+  -- Save file
+  vim.keymap.set('n', '<C-s>', '<cmd>w<CR>')
+
+  -- Close butter
+  vim.keymap.set('n', '<C-x>', '<cmd>bdelete<CR>')
+
   -- Diagnostic Config & Keymaps
   --  See `:help vim.diagnostic.Opts`
   vim.diagnostic.config {
