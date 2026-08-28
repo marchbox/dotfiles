@@ -224,7 +224,7 @@ do
   -- NOTE: This won't work in all terminal emulators/tmux/etc. Try your own mapping
   -- or just use <C-\><C-n> to exit terminal mode
   vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
-  vim.keymap.set("n", "<leader>``", "<cmd>terminal<CR>", { desc = "Open terminal in current window" })
+  vim.keymap.set('n', '<leader>``', '<cmd>terminal<CR>', { desc = 'Open terminal in current window' })
   vim.keymap.set('n', '<leader>`h', '<cmd>new | terminal<CR>', { desc = 'Open terminal in a [H]orizontal split' })
   vim.keymap.set('n', '<leader>`v', '<cmd>vnew | terminal<CR>', { desc = 'Open terminal in a [V]ertical split' })
 
@@ -381,7 +381,11 @@ do
     spec = {
       { '<leader>s', group = '[S]earch', mode = { 'n', 'v' } },
       { '<leader>t', group = '[T]oggle' },
+      { '<leader>g', desc = 'Lazy[G]it', mode = { 'n' }, icon = { cat = 'filetype', name = 'git', color = 'orange' } },
       { '<leader>`', group = 'Terminal' },
+      { '<leader>w', group = '[W]indow', mode = { 'n' } },
+      { '<leader>wm', desc = 'Move to window', mode = { 'n' } },
+      { '<leader>wr', desc = 'Resize window', mode = { 'n' } },
       { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } }, -- Enable gitsigns recommended keymaps first
       { 'gr', group = 'LSP Actions', mode = { 'n' } },
     },
