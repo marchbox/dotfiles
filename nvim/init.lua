@@ -134,6 +134,12 @@ do
   vim.o.ignorecase = true
   vim.o.smartcase = true
 
+  -- Indents
+  vim.o.expandtab = true
+  vim.o.tabstop = 2
+  vim.o.shiftwidth = 2
+  vim.o.softtabstop = 2
+
   -- Keep signcolumn on by default
   vim.o.signcolumn = 'yes'
 
@@ -156,7 +162,11 @@ do
   --   See `:help lua-options`
   --   and `:help lua-guide-options`
   vim.o.list = true
-  vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+  vim.opt.listchars = {
+    tab = '» ',
+    space = '·',
+    nbsp = '␣',
+  }
 
   -- Preview substitutions live, as you type!
   vim.o.inccommand = ''
@@ -900,6 +910,9 @@ do
     },
 
     completion = {
+      accept = {
+        auto_brackets = { enabled = false },
+      },
       -- By default, you may press `<c-space>` to show the documentation.
       -- Optionally, set `auto_show = true` to show the documentation after a delay.
       documentation = { auto_show = false, auto_show_delay_ms = 500 },
