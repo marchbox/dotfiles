@@ -476,6 +476,23 @@ do
   ---@diagnostic disable-next-line: duplicate-set-field
   statusline.section_location = function() return '%2l:%-2v' end
 
+  -- Enable mini.move
+  require('mini.move').setup {
+    mappings = {
+      -- Move visual selection in Visual mode. Defaults are Alt (Meta) + hjkl.
+      left = '<M-left>',
+      right = '<M-right>',
+      down = '<M-down>',
+      up = '<M-up>',
+
+      -- Move current line in Normal mode
+      line_left = '<M-left>',
+      line_right = '<M-right>',
+      line_down = '<M-down>',
+      line_up = '<M-up>',
+    },
+  }
+
   -- ... and there is more!
   --  Check out: https://github.com/nvim-mini/mini.nvim
 end
