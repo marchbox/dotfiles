@@ -11,6 +11,7 @@ brew install fzf
 brew install ack
 brew install fx
 brew install typos-lsp
+brew install ripgrep
 
 brew install tlrc
 brew install rm-improved
