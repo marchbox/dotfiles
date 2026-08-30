@@ -204,8 +204,11 @@ do
   -- Save file
   vim.keymap.set('n', '<C-s>', '<cmd>w<CR>')
 
-  -- Close butter
+  -- Close buffer
   vim.keymap.set('n', '<C-x>', '<cmd>bdelete<CR>')
+
+  -- Select the entire document
+  vim.keymap.set('n', '<leader>a', 'ggVG', { desc = 'Select entire file' })
 
   -- Diagnostic Config & Keymaps
   --  See `:help vim.diagnostic.Opts`
