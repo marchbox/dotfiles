@@ -8,16 +8,16 @@ require('oil').setup {
     padding = 8,
     max_width = 0.6,
     max_height = 0.6,
-    border = 'single',
+    border = 'rounded',
   },
   confirmation = {
-    border = 'single',
+    border = 'rounded',
   },
   progress = {
-    border = 'single',
+    border = 'rounded',
   },
   keymaps_help = {
-    border = 'single',
+    border = 'rounded',
   },
   view_options = {
     show_hidden = true,
