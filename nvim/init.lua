@@ -245,10 +245,9 @@ do
   -- or just use <C-\><C-n> to exit terminal mode
   -- TODO: Move these keymaps together with Floaterm plugin
   vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
-  vim.keymap.set('n', '<leader>mm', '<cmd>terminal<CR>', { desc = 'Open terminal in current window' })
+  vim.keymap.set('n', '<leader>mt', '<cmd>terminal<CR>', { desc = 'Open terminal in current window' })
   vim.keymap.set('n', '<leader>mh', '<cmd>new | terminal<CR>', { desc = 'Open terminal in a [H]orizontal split' })
   vim.keymap.set('n', '<leader>mv', '<cmd>vnew | terminal<CR>', { desc = 'Open terminal in a [V]ertical split' })
-  vim.keymap.set({ 'n', 't' }, '<leader>mf', '<cmd>Floaterm<CR>', { desc = 'Open terminal in a [F]loating window' })
 
   -- TIP: Disable arrow keys in normal mode
   -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')

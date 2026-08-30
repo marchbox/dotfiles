@@ -203,6 +203,7 @@ vim.api.nvim_create_user_command('FloatermDelete', delete_terminal, {})
 vim.api.nvim_create_user_command('FloatermNext', function() cycle_terminal(1) end, {})
 vim.api.nvim_create_user_command('FloatermPrevious', function() cycle_terminal(-1) end, {})
 
+vim.keymap.set({ 'n', 't' }, '<leader>mm', '<cmd>Floaterm<CR>', { desc = 'Open terminal in a floating window' })
 vim.keymap.set({ 'n', 't' }, '<leader>mn', preserve_terminal_mode(new_terminal), { desc = 'Create a new floating terminal' })
 vim.keymap.set({ 'n', 't' }, '<leader>mx', preserve_terminal_mode(delete_terminal), { desc = 'Delete the current floating terminal' })
 vim.keymap.set({ 'n', 't' }, '<leader>m]', preserve_terminal_mode(function() cycle_terminal(1) end), { desc = 'Next floating terminal' })
