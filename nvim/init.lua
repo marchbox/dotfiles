@@ -176,6 +176,7 @@ do
 
   -- Show vertical guides
   vim.o.colorcolumn = '80,100'
+  vim.o.textwidth = 80
 
   -- Minimal number of screen lines to keep above and below the cursor.
   vim.o.scrolloff = 10
@@ -243,9 +244,10 @@ do
   -- NOTE: This won't work in all terminal emulators/tmux/etc. Try your own mapping
   -- or just use <C-\><C-n> to exit terminal mode
   vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
-  vim.keymap.set('n', '<leader>``', '<cmd>terminal<CR>', { desc = 'Open terminal in current window' })
-  vim.keymap.set('n', '<leader>`h', '<cmd>new | terminal<CR>', { desc = 'Open terminal in a [H]orizontal split' })
-  vim.keymap.set('n', '<leader>`v', '<cmd>vnew | terminal<CR>', { desc = 'Open terminal in a [V]ertical split' })
+  vim.keymap.set('n', '<leader>mm', '<cmd>terminal<CR>', { desc = 'Open terminal in current window' })
+  vim.keymap.set('n', '<leader>mh', '<cmd>new | terminal<CR>', { desc = 'Open terminal in a [H]orizontal split' })
+  vim.keymap.set('n', '<leader>mv', '<cmd>vnew | terminal<CR>', { desc = 'Open terminal in a [V]ertical split' })
+  vim.keymap.set({ 'n', 't' }, '<leader>mf', '<cmd>Floaterm<CR>', { desc = 'Open terminal in a [F]loating window' })
 
   -- TIP: Disable arrow keys in normal mode
   -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
