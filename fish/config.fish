@@ -94,7 +94,7 @@ abbr --add gcl git clean -df
 
 # Key bindings
 set --global fish_key_bindings fish_vi_key_bindings
-bind -M insert \cd accept-autosuggestion
+bind -M insert \ca accept-autosuggestion
 bind -M insert \ce up-or-search
 bind -M insert \cn down-or-search
 bind -M insert \co clear-screen
